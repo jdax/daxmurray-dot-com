@@ -1,0 +1,339 @@
+$gray-base: #DB4374;
+$gray-darker: #2C0149;
+$gray-dark: #69065A;
+// #333
+$gray: #D03A45;
+// #555
+$gray-light: #F15654;
+// #777
+$gray-lighter: #DAC5F1;
+// #eee
+
+/*
+   font
+------------------*/
+* {
+  font-family: 'Lato', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  @media only screen and (max-width: 880px) {
+
+  }
+}
+
+@font-face {
+  font-family: 'eutemia_ornamentsregular';
+  src: url('eutemia_ornaments-webfont.woff2') format('woff2'),
+  url('eutemia_ornaments-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', serif;
+  color: $gray-dark;
+  font-style: normal;
+  font-weight: normal;
+  @media only screen and (max-width: 880px) {
+    font-size: 1em;
+    padding: 4%;
+  }
+}
+
+p {
+  color: $gray-light;
+}
+
+a {
+  text-decoration: none;
+  color: $gray;
+}
+
+.header-text {
+  color: white;
+  font-size: 30px;
+  @media only screen and (max-width: 880px) {
+    font-size: 1em;
+    ul li {display: block !important;}
+  }
+  text-align: center;
+  h1 {
+    font-size: 70px;
+    @media only screen and (max-width: 880px) {
+      font-size: 1em; }
+  }
+  p {
+    color: $gray;
+  }
+  a {
+    color: white;
+  }
+
+}
+
+.header {
+  padding-top: 1250px / 4751px * 100%;
+  margin-bottom: 60px;
+  background-image: url('/images/DM_Header.jpg');
+  @media only screen and (max-width: 880px) {
+    //padding-top: 1200px / 800px * 100%;
+    padding-top: 100%;
+    background-image: url('/images/DM_Header_Mobile.jpg');
+    .social-icon {
+      font-size: 2em;
+    }
+  }
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
+
+.ornamental {
+  font-family: 'eutemia_ornamentsregular';
+  color: $gray-darker;
+}
+
+.ornamental-margin {
+  margin-top: -7% !important;
+  height: 25px;
+}
+
+.pure-button {
+  color: $gray-lighter;
+  background: $gray-darker;
+  margin: 5% 0;
+  width: 75%;
+  padding: 3% 0;
+
+}
+
+.out-now {
+  margin: 7% auto;
+  display: block;
+  background-image: linear-gradient(
+                  white, $gray-darker
+  );
+  width: 60%; // one on a row
+  //width: 45%; // two on a row
+  //float: left; // two on a row
+  //margin: 2.5%; // two on a row
+  height: auto;
+  //max-height: 51em;
+  text-align: center;
+  .pure-button {
+    background: $gray;
+    margin-bottom: 7%;
+    width: auto;
+    height: auto;
+    padding: 2%;
+  }
+  @media only screen and (max-width: 880px) {
+    height: auto;
+    max-height: none;
+    width: 100%;
+  }
+}
+
+.newsletter {
+  margin: 0 auto;
+  background-image: linear-gradient(
+                  $gray-lighter, $gray-darker
+  );
+
+  width: 60%;
+  text-align: center;
+  @media only screen and (max-width: 880px) {
+    width: 100%;
+  }
+}
+
+/* side bar */
+
+.right-nav, .promo-bar {
+  padding: 2%;
+  display: inline-block;
+  height: auto;
+  max-height: 100%;
+  text-align: center;
+  .promo-footer {
+    display: inline-block;
+  }
+  .promo {
+    //border: $gray 3px solid;
+    width: 90%;
+    padding: 1%;
+    margin: 1%;
+    float: right;
+    display: inline-block;
+    .promo-img {
+      img {
+        max-width: 95%;
+        max-height: 95%;
+        height: auto;
+        margin: 0 auto;
+        box-shadow: 1px 1px 20px $gray-lighter;
+
+        @media only screen and (max-width: 880px) {
+
+          max-width: 45%;
+
+          }
+
+      }
+    }
+    .promo-text {
+      text-align: center;
+      line-height: inherit;
+      //float: left;
+      display: block;
+    }
+
+    .page-promo-img {
+      img {
+        box-shadow: 1px 1px 30px $gray-darker;
+        margin-top: 15%;
+        @media only screen and (max-width: 880px) {
+
+          max-width: 45%;
+
+        }
+      }
+    }
+
+    .about-img {
+      img {
+        box-shadow: 1px 1px 30px $gray-darker;
+        margin: 2% 15% 0 0;
+        @media only screen and (max-width: 880px) {
+
+          max-width: 45%;
+          @media only screen and (max-width: 880px) {
+            display: none;
+          }
+
+        }
+
+      }
+    }
+
+  }
+}
+
+
+.divider {
+  width: 100%;
+  height: 2em;
+  background-image: linear-gradient(
+                  to right,
+                  $gray-darker, $gray
+  );
+}
+
+footer {
+  padding-bottom: 300px / 1140px * 40%;
+  background-image: url('/images/DM_Footer.jpg');
+  @media only screen and (max-width: 880px) {
+    //padding-top: 1200px / 800px * 100%;
+    padding-top: 10%;
+    background-image: url('/images/DM_Footer_Mobile.jpg');
+  }
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-size: 2em;
+  margin: 0 auto;
+  text-align: center;
+  p {
+    color: $gray-lighter;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    @media only screen and (max-width: 880px) {
+      width: 90%;
+      margin: 0;
+      padding: 0;
+      font-size: 0.5em;
+    }
+  }
+
+}
+
+/* main */
+
+.landing-bio {
+  margin: 3%;
+  padding: 2%;
+  .landing-bio-text {
+    margin: 7%;
+  }
+}
+
+.book-pages {
+
+  width: 95%;
+  @media only screen and (max-width: 880px) {
+    font-size: 0.5em;
+    padding: 10%;
+    font-size: 1em !important;
+
+
+  }
+
+}
+
+.page-promo-links {
+  // padding: 2%;
+  a {
+  @media only screen and (max-width: 880px)  {float: left; max-width: 23%; margin: 3%; } }
+
+}
+
+.article {
+  margin: 5% 20%;
+  @media only screen and (max-width: 880px) {
+    margin: 5%;
+  }
+  .article--title a, h1 {
+    font-family: 'PT Serif', serif;
+    color: $gray-base;
+  }
+
+  .article--date {
+    color: $gray-darker;
+    font-size: 1.5em;
+  }
+
+    .article--text {
+    font-size: 2em;
+    padding: 1%;
+    @media only screen and (max-width: 880px) {font-size: 1em !important; padding: 4%;}
+    p {
+      color: $gray-darker;
+      a {
+        text-decoration: underline;
+        color: $gray-dark;
+      }
+    }
+  }
+}
+
+.pure-menu-children {
+
+  background: $gray-dark;
+  padding: 5% 35% 5% 30%;
+  margin: 1%;
+
+  text-align: left;
+
+  .pure-menu-item a {
+    width: auto;
+    /* top right bottom left */
+    padding: 4%;
+    color: white;
+    font-size: 0.65em;
+    display: block;
+  }
+
+}

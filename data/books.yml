@@ -9,6 +9,7 @@ book:
   exit_hook: sersly buy
   review: yeah, this is a review that says exactly how cool it is
   purchase_links: example.com
+  link: /link.html
   series: Scions and Shadows
 - stars-and-soil:
   title: another awesome title
@@ -19,4 +20,5 @@ book:
   exit_hook: buy buy buy
   review: yi agree this book is awesome
   purchase_links: example.com
+  link: /link.html
   series: Scions and Shadows
