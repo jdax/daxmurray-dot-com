@@ -1,0 +1,17 @@
+sites:
+- cats:
+  name: dax cats
+  url: example.com
+  description: clever words
+- blog:
+  name: blog
+  url: blog.daxmurray.com
+  description: read my opinions
+- scions-series:
+  name: scions and shadows
+  url: scionsandshadows.ink
+  description: updates specific to the series
+-editing:
+  name: enchanted editing services
+  url: example
+  description: hire me

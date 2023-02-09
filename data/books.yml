@@ -1,0 +1,22 @@
+---
+book:
+- shades-and-silver:
+  title: example title
+  cover_flat: cover flat
+  cover_3d: cover 3d
+  intro_hook: intro hook that is pretty cool
+  main_description: this is totally a super awesome book that you should absolutely buy
+  exit_hook: sersly buy
+  review: yeah, this is a review that says exactly how cool it is
+  purchase_links: example.com
+  series: Scions and Shadows
+- stars-and-soil:
+  title: another awesome title
+  cover_flat: cover flat
+  cover_3d: cover 3d
+  intro_hook: intro hook that is absolutely amazing
+  main_description: book here is very good and lots of cool things happen in it, so many cool things
+  exit_hook: buy buy buy
+  review: yi agree this book is awesome
+  purchase_links: example.com
+  series: Scions and Shadows

@@ -1,0 +1,21 @@
+---
+title: Dax Murray
+---
+
+
+<% data.books.book.each do |book| %>
+  <h1> <%= book.title %> </h1>
+  <h2> <%= book.intro_hook %></h2>
+  <p> <%= book.main_description %> </p>
+  <br />
+  <h2> <%= book.exit_hook %> </h2>
+  <%= link_to 'purchase', book.purchase_links  %>
+  <% end %>
+
+  
+
+<%= link_to(
+  "Read Documentation",
+  "https://middlemanapp.com/basics/templating_language/",
+  target: "_blank"
+) %>

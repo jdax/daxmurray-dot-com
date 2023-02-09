@@ -1,0 +1,7 @@
+socialmedia:
+-personal_masto:
+  name: personal mastodon accounts
+  url: example.com
+-writing_masto:
+  name: writing masto
+  url: example.com
