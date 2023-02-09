@@ -25,8 +25,8 @@
 
             <ul class="pure-menu-children">
 
-            <% data.books.book.each do |b| %>
-            <li class="pure-menu-item"><%= link_to(b.title, b.link) %> </li>
+            <% data.books.each do |b| %>
+            <li class="pure-menu-item"><%= link_to(b.title, b.slug) %> </li>
             <% end %>
             </ul>
           </li>

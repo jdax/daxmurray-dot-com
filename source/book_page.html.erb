@@ -1,0 +1,7 @@
+<% book = locals[:b] %>
+  <h1> <%= book.title %> </h1>
+  <h2> <%= book.intro_hook %></h2>
+  <p> <%= book.main_description %> </p>
+  <br />
+  <h2> <%= book.exit_hook %> </h2>
+  <%= link_to 'purchase', book.purchase_links  %>

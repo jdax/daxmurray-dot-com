@@ -1,5 +1,4 @@
 ---
-book:
 - shades-and-silver:
   title: example title
   cover_flat: cover flat
@@ -10,6 +9,7 @@ book:
   review: yeah, this is a review that says exactly how cool it is
   purchase_links: example.com
   link: /link.html
+  slug: shades-and-silver
   series: Scions and Shadows
 - stars-and-soil:
   title: another awesome title
@@ -21,4 +21,5 @@ book:
   review: yi agree this book is awesome
   purchase_links: example.com
   link: /link.html
+  slug: stars-and-soil
   series: Scions and Shadows

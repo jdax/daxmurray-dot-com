@@ -4,6 +4,7 @@
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
+activate :directory_indexes
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -12,6 +13,13 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+
+
+
+# dynamic pages for each book 
+@app.data.books.each do |b|
+  proxy "/#{b.slug}.html", "/book_page.html", :layout => false, :locals => { :b => b }, :ignore => true
+end
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
