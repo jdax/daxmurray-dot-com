@@ -75,11 +75,11 @@ a {
 .header {
   padding-top: 1250px / 4751px * 100%;
   margin-bottom: 60px;
-  background-image: url('/images/DM_Header.jpg');
+  background-image: url('/images/branding/DM_Header.jpg');
   @media only screen and (max-width: 880px) {
     //padding-top: 1200px / 800px * 100%;
     padding-top: 100%;
-    background-image: url('/images/DM_Header_Mobile.jpg');
+    background-image: url('/images/branding/DM_Header_Mobile.jpg');
     .social-icon {
       font-size: 2em;
     }
