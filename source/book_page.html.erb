@@ -1,6 +1,5 @@
 ---
 layout: layout
-
 ---
 
 <% book = locals[:b] %>
@@ -9,6 +8,7 @@ layout: layout
   <p> <%= book.main_description %> </p>
   <br />
   <h2> <%= book.exit_hook %> </h2>
+  <p>
 
 <div class="blog-body">
   <div class="pure-g">
@@ -21,15 +21,9 @@ layout: layout
         </div>
       </div>
     </div>
-    </div>
+  </div>
 
-
-
-  <% book.purchase_links.each do | key, value | %>
-
-<p><%= key %>: <%= value %></p>
-
-<% end %>
-
+  <p>Cover: <%= link_to(book.cover_art.name, book.cover_art.link)%>
+</div>
 
  
