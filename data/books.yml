@@ -20,6 +20,9 @@
   interior_design:
   interior_illustrations:
   editor:
+  scions: "true"
+  standalone: "false"
+  poetry: "false"
   latest: "true"
   coming_soon: "false"
   release_date:
@@ -48,6 +51,9 @@
   interior_design:
   interior_illustrations: "Etheric Tales"
   editor:
+  scions: "true"
+  standalone: "false"
+  poetry: "false"
   latest: "false"
   coming_soon: "true"
   release_date:
@@ -78,6 +84,10 @@
   interior_design: "Pretty AF Designs"
   interior_illustrations: "Pretty AF Designs"
   editor: "Clearing Blocks Editing"
+  scions: "false"
+  standalone: "true"
+  poetry: "false"
+  latest: "false"
   coming_soon: "false"
   release_date:
 
@@ -103,6 +113,9 @@
   interior_design:
   interior_illustrations:
   editor: "Clearing Blocks Editing and Kat Howard"
+  scions: "false"
+  standalone: "true"
+  poetry: "false"
   latest: "false"
   coming_soon: "false"
   release_date:
@@ -124,6 +137,9 @@
   interior_design: "Pretty AF Designs"
   interior_illustrations: "Pretty AF Designs"
   editor:
+  scions: "false"
+  standalone: "true"
+  poetry: "true"
   latest: "false"
   coming_soon: "false"
   release_date:

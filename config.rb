@@ -70,4 +70,29 @@ helpers do
       end
     end
   end
+
+  def get_scions_series
+    @app.data.books.each do |b|
+      if b.scions == "true"
+        @scions_books = b
+      end
+    end
+  end
+
+  def get_standalones
+    @app.data.books.each do |b|
+      if b.standalone == "true"
+        @standalone_books = b
+      end
+    end
+  end
+
+  def get_poetry
+    @app.data.books.each do |b|
+      if b.poetry == "true"
+        @poetry_books = b
+      end
+    end
+  end
+
 end
