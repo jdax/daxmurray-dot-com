@@ -52,3 +52,22 @@ end
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+
+helpers do
+  def get_latest
+    @app.data.books.each do |b|
+      if b.latest == "true"
+        @latest_release = b
+      end
+    end
+  end
+
+  def get_coming_soon
+    @app.data.books.each do |b|
+      if b.coming_soon == "true"
+        @coming_soon = b
+      end
+    end
+  end
+end
