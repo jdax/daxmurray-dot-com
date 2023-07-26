@@ -1,8 +1,8 @@
 ---
 - shades-and-silver:
   title: Shades & Silver
-  cover_flat: "images/shades-and-silver/shades_and_silver_flat.png"
-  cover_3d: "images/shades-and-silver/shades_and_silver_flat_3d"
+  cover_flat: "images/shades-and-silver/shades_and_silver_flat.jpg"
+  cover_3d: "images/shades-and-silver/shades_and_silver_3d.png"
   intro_hook: "Stories of identity, doubt, and belonging"
   main_description: |
     The birthright of every Ástfríður is to know each metal in the earth, command it, bend it to their desires. To hear metal singing, some of it waiting just beneath the surface, so much of it deeper in the earth. If they wanted, the knew they could pluck that metal from the earth, melt it with a thought, and shape it as they pleased with a breath of air and their will.
@@ -15,11 +15,14 @@
   link: "/shades-and-silver.html"
   slug: shades-and-silver
   series: "Scions and Shadows"
-  cover_art:
-  typography:
+  cover_art: "Merilizza Chan"
+  typography: "Mibl Art"
   interior_design:
   interior_illustrations:
   editor:
+  latest: "true"
+  coming_soon: "false"
+  release_date:
 
 - stars-and-soil:
   title: Stars & Soil
@@ -40,11 +43,14 @@
   link: "/stars-and-soil.html"
   slug: stars-and-soil
   series: "Scions and Shadows"
-  cover_art:
+  cover_art: "Sarah Waites"
   typography:
   interior_design:
-  interior_illustrations:
+  interior_illustrations: "Etheric Tales"
   editor:
+  latest: "false"
+  coming_soon: "true"
+  release_date:
   
 - a-lake-of-feathers-and-moonbeams:
   title: A Lake of Feathers & Moonbeams
@@ -67,11 +73,13 @@
   link: "/feathers-and-moonbeams.html"
   slug: feathers-and-moonbeams
   series: "Scions and Shadows"
-  cover_art:
-  typography:
-  interior_design:
-  interior_illustrations:
-  editor:
+  cover_art: "Layla Rose"
+  typography: "Mibl Art"
+  interior_design: "Pretty AF Designs"
+  interior_illustrations: "Pretty AF Designs"
+  editor: "Clearing Blocks Editing"
+  coming_soon: "false"
+  release_date:
 
 - the-magic-surrendered:
   title: The Magic Surrendered
@@ -90,11 +98,14 @@
   link: "/link.html"
   slug: the-magic-surrendered
   series: "Scions and Shadows"
-  cover_art:
-  typography:
+  cover_art: "Layla Rose"
+  typography: "Mibl Art"
   interior_design:
   interior_illustrations:
-  editor:
+  editor: "Clearing Blocks Editing and Kat Howard"
+  latest: "false"
+  coming_soon: "false"
+  release_date:
 
 - birthing-orion:
   title: Birthing Orion
@@ -108,8 +119,11 @@
   link: "/link.html"
   slug: birthing-orion
   series: "Scions and Shadows"
-  cover_art:
+  cover_art: "Meriliza Chan"
   typography:
-  interior_design:
-  interior_illustrations:
+  interior_design: "Pretty AF Designs"
+  interior_illustrations: "Pretty AF Designs"
   editor:
+  latest: "false"
+  coming_soon: "false"
+  release_date:
