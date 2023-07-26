@@ -1,13 +1,22 @@
 ---
 title: Dax Murray
 ---
+<% get_latest %>
+<% get_coming_soon %>
+<h1> Latest Release <h1>
+
+  <p> <%= @latest_release.title.to_s %> </p>
+  <%= image_tag(@latest_release.cover_3d, height: '500') %>
+  <% @latest_release.purchase_links.each do |name, link |%>
+  <%= link_to(name, link) %>
+  <% end %>
+
+<h1> Coming Soon <h1>
+  <p> <%= @coming_soon.title.to_s %> </p>
+  <%= image_tag(@coming_soon.cover_3d, height: '500') %>
+  <% @coming_soon.purchase_links.each do |name, link |%>
+  <%= link_to(name, link) %>
+  <% end %>
 
 
-<% data.books.each do |book| %>
-  <h1> <%= book.title %> </h1>
-  <h2> <%= book.intro_hook %></h2>
-  <p> <%= book.main_description %> </p>
-  <br />
-  <h2> <%= book.exit_hook %> </h2>
-  <% end %> %>
 
