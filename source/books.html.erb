@@ -1,0 +1,33 @@
+---
+layout: layout
+---
+<% get_standalones %>
+<% get_scions_series %>
+
+<h1> Stand Alone Prose and Poetry </h1>
+<% @standalone_books.each do | book |%>
+    <%= image_tag(book.cover_3d, height: '500') %>
+    <h2><%= link_to(book.title, book.slug)%></h2>
+    <h3><%= book.intro_hook %></h3>
+    <p><%= book.main_description %></p>
+    <br />
+    <h3><%= book.exit_hook %> </h3>
+    <%# book.purchase_links.each do |k, v |%>
+      <p><%#= link_to(k, v) %></p>
+    <%# end %>
+<% end %>
+
+<h1> SCIONS AND SHADOWS Series </h1>
+
+
+<% @scions_books.each do | book |%>
+    <%= image_tag(book.cover_3d, height: '500') %>
+    <h2><%= link_to(book.title, book.slug)%></h2>
+    <h3><%= book.intro_hook %></h3>
+    <p><%= book.main_description %></p>
+    <br />
+    <h3><%= book.exit_hook %> </h3>
+    <%# <% book.purchase_links.each do | k, v |%>
+      <p><%#= link_to(k, v) %></p>
+    <%# end %>
+<% end %>

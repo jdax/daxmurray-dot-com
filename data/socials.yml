@@ -1,7 +1,7 @@
 socialmedia:
 - personal_masto:
   name: personal mastodon accounts
-  url: example.com
+  url: https://toot.cat/@chaoscatgirl
   icon: img src
 - writing_masto:
   name: writing masto

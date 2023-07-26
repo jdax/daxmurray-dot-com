@@ -57,7 +57,7 @@ end
 helpers do
   def get_latest
     @app.data.books.each do |b|
-      if b.latest == "true"
+      if b.latest == true
         @latest_release = b
       end
     end
@@ -65,32 +65,35 @@ helpers do
 
   def get_coming_soon
     @app.data.books.each do |b|
-      if b.coming_soon == "true"
+      if b.coming_soon == true
         @coming_soon = b
       end
     end
   end
 
   def get_scions_series
-    @app.data.books.each do |b|
-      if b.scions == "true"
-        @scions_books = b
+    @scions_books = Array.new
+    @app.data.books.each do |book|
+      if book.scions == true
+        @scions_books.push(book)
       end
     end
   end
 
   def get_standalones
-    @app.data.books.each do |b|
-      if b.standalone == "true"
-        @standalone_books = b
+    @standalone_books = Array.new
+    @app.data.books.each do |book|
+      if book.standalone == true
+        @standalone_books.push(book)
       end
     end
   end
 
   def get_poetry
-    @app.data.books.each do |b|
-      if b.poetry == "true"
-        @poetry_books = b
+    @poetry_books = Array.new
+    @app.data.books.each do |book|
+      if book.poetry == true
+        @poetry_books.push(book)
       end
     end
   end
