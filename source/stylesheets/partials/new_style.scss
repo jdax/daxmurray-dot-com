@@ -1,0 +1,95 @@
+$bright-pink: #DB4374;
+$dark-purple: #2C0149;
+$pink-purple: #69065A;
+$dark-orange: #D03A45;
+$light-orange: #F15654;
+$light-purple: #DAC5F1;
+$dark-grey: #121212;
+
+
+* {
+	font-family: serif;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	@media only screen and (max-width: 880px) {
+	}
+  }
+
+html, body {
+	background-image: linear-gradient($dark-purple, $dark-grey);
+	padding: 0;
+	margin: 0 auto;
+	overflow: auto;
+}
+  
+
+header {
+	top: 0;
+	width: 100%;
+	background-image: url('/images/branding/DM_Footer.jpg');
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	@media only screen and (max-width: 880px) {
+	  background-image: url('/images/branding/DM_Footer_Mobile.jpg');
+	  h1 {
+			text-align: center;
+			padding: 2%;
+			font-size: 2em;
+		}
+		h2 { text-align: center; font-size: 1.5em; color: $dark-purple; }
+	}
+
+	h1 {
+		text-align: center;
+		padding: 3%;
+		font-size: 4em;
+		text-shadow: 3px 1px 2px $light-purple;
+		a { font-family: 'Cinzel Decorative', cursive; }
+	}
+	h2 { text-align: center; 
+		font-size: 2.5em; 
+		color: $dark-purple;
+		text-shadow: 3px 2px 2px $light-purple;
+		font-family: 'Cinzel Decorative', cursive;
+	}
+
+	 a.header-link { text-decoration: none;}
+}
+
+footer {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	bottom: 0;
+	overflow: auto;
+	background-image: url('/images/branding/DM_Footer.jpg');
+	@media only screen and (max-width: 880px) {
+	  background-image: url('/images/branding/DM_Footer_Mobile.jpg');
+	}
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	font-weight: 600;
+	p {font-size: 1.7em; color: white; text-shadow: 3px 2px 2px $dark-purple;}
+}
+
+p { color: $light-purple }
+
+a { color: $dark-orange }
+
+h1 { color: $light-purple }
+
+h2 { color: $bright-pink }
+
+h3 { color: $light-orange }
+
+h4 { color: $dark-purple }
+
+h5 { color: $dark-purple }
+
+h6 { color: $dark-purple }
+
+.pure-button {}

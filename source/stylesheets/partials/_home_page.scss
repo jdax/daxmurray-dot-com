@@ -1,0 +1,45 @@
+$bright-pink: #DB4374;
+$dark-purple: #2C0149;
+$pink-purple: #6a065b;
+$dark-orange: #D03A45;
+$light-orange: #F15654;
+$light-purple: #DAC5F1;
+
+.home-page {
+	margin: 5.5% 2%;
+}
+.book-card {
+	text-align: center;
+}
+
+.title-link { 
+	a { font-family: 'Cinzel Decorative', cursive; color: $bright-pink; font-weight: 800; font-size:larger;}
+}
+.release-type, .title-link { text-align: center;}
+
+.book-card-img {
+	display: block;
+	margin: auto;
+}
+
+.purchase-button {
+	display: inline-block;
+	padding: 0.5em;
+	text-align: center;
+	text-decoration: none;
+	color: $light-purple;
+	background-color: $pink-purple;
+	border-radius: 6px;
+	outline: none;
+	transition: 0.3s;
+	border: 2px solid transparent;
+	font-weight: 600;
+	font-size: 1.25em;
+  }
+
+
+.purchase-button:hover, 
+.purchase-button:focus {
+	background-color: lighten($pink-purple, 20%);
+	border-color: darken($pink-purple, 20%);
+}

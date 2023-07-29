@@ -1,0 +1,30 @@
+$bright-pink: #DB4374;
+$dark-purple: #2C0149;
+$pink-purple: #6a065b;
+$dark-orange: #D03A45;
+$light-orange: #F15654;
+$light-purple: #DAC5F1;
+
+.nav-menu {
+	margin: 0.15em;
+	padding: 1% 0%;
+	box-shadow: 5px 2px 5px 2px rgb(106, 6, 91);
+	// @media screen and (min-width: 64em) {
+		// this is for desktop/large screens
+	// 	margin: 7.2em 0.25em 0.25em 0.25em;
+	// }
+}
+
+.nav-menu-item {
+	font-size: 1.75em;
+	a { text-decoration: none; }
+}
+
+li { 
+	margin: 1%;
+	@media screen and (min-width: 64em) {
+		// this is normal sized screens
+		margin: 5% 0; 
+	 }
+
+}

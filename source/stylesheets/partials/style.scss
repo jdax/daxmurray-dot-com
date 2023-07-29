@@ -277,17 +277,13 @@ footer {
     font-size: 0.5em;
     padding: 10%;
     font-size: 1em !important;
-
-
   }
-
 }
 
 .page-promo-links {
   // padding: 2%;
   a {
   @media only screen and (max-width: 880px)  {float: left; max-width: 23%; margin: 3%; } }
-
 }
 
 .article {
@@ -320,7 +316,6 @@ footer {
 }
 
 .pure-menu-children {
-
   background: $gray-dark;
   padding: 5% 35% 5% 30%;
   margin: 1%;
@@ -335,5 +330,4 @@ footer {
     font-size: 0.65em;
     display: block;
   }
-
 }
