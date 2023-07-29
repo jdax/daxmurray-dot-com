@@ -8,6 +8,7 @@
 	box-shadow: $mobile-box-shadow;
 	padding-bottom: 3%;
 	@media screen and (min-width: 1024px) {
+		// large screens
 		padding: 5%;
 		box-shadow: none;
 	}

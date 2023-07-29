@@ -1,0 +1,61 @@
+.book-page {
+	padding: 4%;
+	h1 {
+		font-family: $Cinzel;
+		text-align: center;
+		font-size: 30pt;
+		@media screen and (min-width: 768px) {
+			// large screens
+			font-size: 42pt;
+		}
+	}
+	h3 {
+		font-style: italic;
+		text-align: center;
+		font-size: 18pt;
+		@media screen and (min-width: 568px) {
+			// large screens
+			font-size: 20pt;
+		}
+	}
+	h4 { text-align: center; font-family: $Fell; }
+	
+	.book-page-title-small-screen {
+		@media screen and (min-width: 568px) {
+			// large screens
+			display:none;
+		}
+		
+	}
+	.book-page-title-large-screen {
+		display: none;
+		@media screen and (min-width: 568px) { 
+			// large-screen
+			display: block;
+		}
+	}
+	.book-page-intro-hook-large-screen {
+		display:none;
+		@media screen and (min-width: 1024px) {
+			// large screen
+			display:block;
+		}
+	}
+	.book-page-intro-hook-small-screen {
+		@media screen and (min-width: 1024px) {
+			// large screen
+			display:none;
+		}
+	}
+
+	.book-review {
+		.review-text { 
+			color: $bright-pink;
+			padding: 2%;
+			@media screen and (min-width: 568px) {
+				// large screens
+				padding: 1% 15%; }
+			}
+		.review-author { text-align: center; color: $light-orange; font-family: $Fell;}
+	}
+}

@@ -6,29 +6,28 @@
   intro_hook: "Stories of identity, doubt, and belonging"
   main_description: "<p>The birthright of every Ástfríður is to know each metal in the earth, command it, bend it to their desires. To hear metal singing, some of it waiting just beneath the surface, so much of it deeper in the earth. If they wanted, the knew they could pluck that metal from the earth, melt it with a thought, and shape it as they pleased with a breath of air and their will.</p> <p>Each Ástfríður must choose which metal they would wear upon their heads, denoting the path they would walk. They craft beautiful horns to wear on their brow, forged with the metal they wish to identify with. But Britt does not know if they can choose the path they want, if they can overcome a past which has stolen their identity. The day has come for them to choose and they have no idea if they have any right to even try to. And Astrid has never felt the pull of the metal at all Wearing a forged circlet and horn, they try to navigate a world that they feel has rejected them, all the while fearing someone will learn their secret."
   exit_hook: "The Veil of the Ástfríður has kept them hidden from the world and safe from intruders. Yet Britt and Astrid feel they are imposters in their own homes."
-  review: ""
-  purchase_links: 
+  review: null
+  purchase_links:
     "Amazon": "https://www.amazon.com/gp/product/B08W3R96WJ"
   link: "/shades-and-silver.html"
   slug: shades-and-silver
-  series: "Scions and Shadows"
-  cover_art: 
+  series_name: "Scions and Shadows"
+  cover_art:
     name: "Merilliza Chan"
-    link: ""
-  typography: 
+    link: "https://www.merilliza.com/"
+  typography:
     name: "Mibl Art"
-    link: ""
-  interior_design: 
-    name: ""
-    link: ""
-  interior_illustrations: ""
-  editor: ""
+    link: "https://miblart.com"
+  interior_design: null
+  interior_illustrations: null
+  editor: null
+  is_series: !!bool true
   scions: !!bool true
   standalone: !!bool false
   poetry: !!bool false
   latest: !!bool true
   coming_soon: !!bool false
-  release_date: ""
+  release_date: "February 12, 2021"
 
 - stars-and-soil:
   title: "Stars & Soil"
@@ -37,28 +36,22 @@
   intro_hook: "Caitlin had her whole life planned out until a grusome murder sets her on a collision course with fate and magic."
   main_description: "<p>She would live in the bustling port city of Whick with the reformed pirate she fell in love with and, one day, inherit her fathers' growing trading business.</p> <p>She did not intend to stumble into an anti-monarchy riot and become involved with the revolutionaries determined to overthrow the nobility and create a world without hunger, poverty and homelessness. A world with justice for all, and not just those with means. </p> <p>She did not want to catch the eye of a spoiled prince. She did not want him to pursue and court her, plunging her into a world of bickering dukes, suspicious foreign ambassadors, and scheming politicians.</p> <p>She did not seek out the attentions of ancient and secret religious orders, intent on controlling the machinations of a kingdom from the shadows.</p><p>But she did.</p>"
   exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos."
-  review: ""
-  purchase_links: 
-    "Amazon": "https://example.com"  
+  review: null
+  purchase_links:
+    "Amazon": "https://example.com" 
   link: "/stars-and-soil.html"
   slug: stars-and-soil
-  series: "Scions and Shadows"
-  series_number: ""
-  cover_art:
-    name: "Sarah Waites of the Illustrated Page"
-    link: ""
-  typography:
-    name: ""
-    link: ""
-  interior_design: 
-    name: ""
-    link: ""
-  interior_illustrations: 
+  series_name: "Scions and Shadows"
+  cover_art: 
+    name: Sarah Waites of the Illustrated Page
+    link: "https://theillustratedpage.net/design/"
+  typography: null
+  interior_design: null
+  interior_illustrations:
     name: "Etheric Tales"
     link: ""
-  editor: 
-    name: ""
-    link: ""
+  editor: null
+  is_series: !!bool true
   scions: !!bool true
   standalone: !!bool false
   poetry: !!bool false
@@ -74,7 +67,9 @@
     How many half-truths could loyalty shoulder before it broke from the weight of deception on its back?
   main_description: "<p>Strange things can be said of the forest that spans the border of two kingdoms long at war. An evil sorcerer has made it his dominion, or an elegant enchantress has claimed it as her domain and grants wishes to those who chance upon her, or maybe the forest is guarded by an ancient and wrathful spirit. But Katya calls the forest home, living a life of magic and charms with her partner Ivan. </p><p>But a threat looms over their forest, some darkness and danger that Ivan swears to protect her from. Katya finds herself caught up in a web of grudges and deception spanning generations, but most dangerous of all is the beautiful princess who stumbled into their woods. A princess who sets Katya’s heart fluttering with both desire and fear. As forces rally to rescue the princess or go to war, Katya must take measure of her own powers and decide what she is willing to sacrifice.</p>"
   exit_hook: "Will she retreat to the safety of what's familiar or give up everything she knows to spread her wings and fly?"
-  review: "I loved the queer-positive fairy tale world, but I was pleasantly surprised to find that was only the backdrop for a subtle story about trust, betrayal, and new possibilities. I highly recommend it, even if you're not familiar with the original story! ~ Danika, The Lesbrary"
+  review:
+    review_text: "I loved the queer-positive fairy tale world, but I was pleasantly surprised to find that was only the backdrop for a subtle story about trust, betrayal, and new possibilities. I highly recommend it, even if you're not familiar with the original story!" 
+    review_author: "~ Danika, The Lesbrary"
   purchase_links:
     "Amazon": "https://example.com"
     "B & N": "https://example.com"
@@ -83,22 +78,23 @@
     "Others": "https://1link.st/dax"
   link: "/feathers-and-moonbeams.html"
   slug: feathers-and-moonbeams
-  series: ""
+  series_name: null
   cover_art: 
     name: "Laya Rose"
     link: "https://layaroseart.com/"
-  typography: 
+  typography:
     name: "Mibl Art"
     link: "https://miblart.com/"
-  interior_design: 
+  interior_design:
     name: "Aurelia Fray at Pretty AF Designs"
     link: "https://www.prettyafdesigns.com/"
   interior_illustrations: 
     name: "Aurelia Fray at Pretty AF Designs"
     link: "https://www.prettyafdesigns.com/"
-  editor: 
+  editor:
     name: "Jen Anderson at Clearing Blocks Editing"
     link: "https://www.clearingblocksediting.com/"
+  is_series: !!bool false
   scions: !!bool false
   standalone: !!bool true
   poetry: !!bool false
@@ -113,27 +109,24 @@
   intro_hook: "I haven’t been trying to build a weapon! I have been trying to prevent a war. Ellie, please don't make me do this."
   main_description: "<p>After generations of relentless expansion, Empress Eleanor is ready to put her family's habit for conquest behind her, content to cease her army's forward march and solidify her position as the ruler of the territories already in her possession. But these countries her fathers conquered are eager to leave the Empire and willing to resort to revolution.</p><p>Amalthea grew up poor, her homeland destitute after being invaded and occupied. But her new status as a citizen of the sparkling empire gives her access to the Academy of Mages and all of their teachings. However, once there, she defies their rules and pursues her own experiments with dangerous and forbidden magics. Despite this, she catches the Empress's eye and is soon the first official Imperial Scientist and the unofficial consort.</p>"
   exit_hook: "A short story about a brilliant mage and an insecure empress; of love and ethics, partnership and conflict."
-  review: ""
+  review: null
   purchase_links: 
     "Amazon": "https://example.com"
-  link: "/link.html"
+  link: "/the-magic-surrendered.html"
   slug: the-magic-surrendered
-  series: ""
+  series_name: null
   cover_art: 
     name: "Laya Rose"
     link: "https://layaroseart.com/"
-  typography: 
+  typography:
     name: "Mibl Art"
-    link: ""
-  interior_design: 
-    name: ""
-    link: ""
-  interior_illustrations: 
-    name: ""
-    link: ""
-  editor: 
+    link: "https://miblart.com"
+  interior_design: null
+  interior_illustrations: null
+  editor:
     name: "Kat Howard"
     link: "http://www.kathowardbooks.com/editing"
+  is_series: !!bool false
   scions: !!bool false
   standalone: !!bool true
   poetry: !!bool false
@@ -148,27 +141,24 @@
   intro_hook: "Too fondly have I loved these stars; all these galaxies we once called ours."
   main_description: "The relationship between the two goddesses is tempestuous at best. Seya is the embodiment of a galactic creation and Tia of cosmic destruction. They create and they destroy and then they do it all over again. Seya and Tia use their divine magic to make pulsars and nebula, to set planets spinning around stars and bind a galaxy together with a central black hole.</p><p>But when one of Seya's favorite stars goes missing, she blames Tia. What was once a symbiotic cycle of life and death becomes a game of broken hearts and promises betrayed. These tensions and insecurities are explored in sonnets and villanelles; the arc of their love tracked in meter and verse. These poems touch on queer love, betrayal, trust, acceptance, and forgiveness cast against a backdrop of stardust and celestial detritus.</p>"
   exit_hook: "A beautiful love story in verse."
-  review: "yi agree this book is awesome"
-  purchase_links: 
+  review: null
+  purchase_links:
     "Amazon": "https://example.com"
-  link: "/link.html"
+  link: "/birthing-orion.html"
   slug: birthing-orion
-  series: ""
-  cover_art: 
+  series_name: null
+  cover_art:
     name: "Meriliza Chan"
-    link: ""
-  typography: 
-    name: ""
-    link: ""
-  interior_design: 
+    link: "https://merilliza.com"
+  typography: null
+  interior_design:
     name: "Aurelia Fray of Pretty AF Designs"
     link: ""
   interior_illustrations: 
     name: "Aurelia Fray of Pretty AF Designs"
     link: ""
-  editor: 
-    name: ""
-    link: ""
+  editor: null
+  is_series: !!bool true
   scions: !!bool false
   standalone: !!bool true
   poetry: !!bool true

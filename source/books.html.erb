@@ -11,7 +11,7 @@ layout: layout
 
 <% @standalone_books.each do | book |%>
   <div class="pure-u-1 pure-u-md-1-2 pure-u-xxl-1-3 books-cards">
-    <%= image_tag(book.cover_3d, height: '500') %>
+    <%= image_tag(book.cover_3d, height: '500', class: "book-card-img") %>
     <h2><%= link_to(book.title, book.slug)%></h2>
     <h4><%= book.intro_hook %></h4>
     <p><%= book.main_description %></p>
@@ -38,7 +38,7 @@ layout: layout
 </div>
 <% @scions_books.each do | book |%>
   <div class="pure-u-1 pure-u-md-1-2 books-cards">
-    <%= image_tag(book.cover_3d, height: '500') %>
+    <%= image_tag(book.cover_3d, height: '500', class: "book-card-img") %>
     <h2><%= link_to(book.title, book.slug)%></h2>
     <h4><%= book.intro_hook %></h4>
     <p><%= book.main_description %></p>
