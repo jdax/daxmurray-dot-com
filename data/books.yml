@@ -8,7 +8,7 @@
   exit_hook: "The Veil of the Ástfríður has kept them hidden from the world and safe from intruders. Yet Britt and Astrid feel they are imposters in their own homes."
   review: ""
   purchase_links: 
-    amazon: "https://www.amazon.com/gp/product/B08W3R96WJ"
+    "Amazon": "https://www.amazon.com/gp/product/B08W3R96WJ"
   link: "/shades-and-silver.html"
   slug: shades-and-silver
   series: "Scions and Shadows"
@@ -39,7 +39,7 @@
   exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos."
   review: ""
   purchase_links: 
-    amazon: "https://example.com"  
+    "Amazon": "https://example.com"  
   link: "/stars-and-soil.html"
   slug: stars-and-soil
   series: "Scions and Shadows"
@@ -77,9 +77,9 @@
   review: "I loved the queer-positive fairy tale world, but I was pleasantly surprised to find that was only the backdrop for a subtle story about trust, betrayal, and new possibilities. I highly recommend it, even if you're not familiar with the original story! ~ Danika, The Lesbrary"
   purchase_links:
     "Amazon": "https://example.com"
-    "Barnes and Nobles": "https://example.com"
+    "B & N": "https://example.com"
     "Apple": "https://example.com"
-    "Google Play": "https://example.com"
+    "Google": "https://example.com"
     "Others": "https://1link.st/dax"
   link: "/feathers-and-moonbeams.html"
   slug: feathers-and-moonbeams
@@ -115,7 +115,7 @@
   exit_hook: "A short story about a brilliant mage and an insecure empress; of love and ethics, partnership and conflict."
   review: ""
   purchase_links: 
-    amazon: "https://example.com"
+    "Amazon": "https://example.com"
   link: "/link.html"
   slug: the-magic-surrendered
   series: ""
@@ -150,7 +150,7 @@
   exit_hook: "A beautiful love story in verse."
   review: "yi agree this book is awesome"
   purchase_links: 
-    amazon: "https://example.com"
+    "Amazon": "https://example.com"
   link: "/link.html"
   slug: birthing-orion
   series: ""

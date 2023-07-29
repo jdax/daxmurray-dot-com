@@ -4,30 +4,52 @@ layout: layout
 <% get_standalones %>
 <% get_scions_series %>
 
-<h1> Stand Alone Prose and Poetry </h1>
+<div class="books-index">
+
+<div class="pure-g">
+<div class="pure-u-1"><h1> Stand Alone Prose and Poetry </h1></div>
+
 <% @standalone_books.each do | book |%>
+  <div class="pure-u-1 pure-u-md-1-2 pure-u-xxl-1-3">
     <%= image_tag(book.cover_3d, height: '500') %>
     <h2><%= link_to(book.title, book.slug)%></h2>
-    <h3><%= book.intro_hook %></h3>
+    <h4><%= book.intro_hook %></h4>
     <p><%= book.main_description %></p>
     <br />
-    <h3><%= book.exit_hook %> </h3>
-    <%# book.purchase_links.each do |k, v |%>
-      <p><%#= link_to(k, v) %></p>
-    <%# end %>
+    <h4><%= book.exit_hook %> </h4>
+    <div class="pure-u-1 purchase-button-group">
+          <% book.purchase_links.each do |k, v |%>
+            <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4"><p><%= link_to(k, v, class: "purchase-button") %></p></div>
+          <% end %>
+    </div>
+  </div>
 <% end %>
+</div>
 
-<h1> SCIONS AND SHADOWS Series </h1>
+<div class="pure-g">
+<div class="pure-u-1"><h1> The SCIONS & SHADOWS Series </h1></div>
+<div class="pure-u-1 series-description"><p>IN AHNLISEN, OLD GODS PLOT REVENGE on those that displaced them, hidden cities hold ancient secrets, kings and priests vie for control of powerful relics, forgotten realms rise from ashes, spies and assassins of murky loyalties operate from the shadows, rebels and revolutionaries covertly arm themselves for discord, and oracles and scryers predict the rebirth of fallen immortals.</p>
+ 
+<p>The world of SCIONS AND SHADOWS is one of magic and intrigue, spanning centuries of political conspiracies, divine machinations and conflicts of ethics, morality, and conscience. Swords and spells clash chaotically, forcing people to decide between what they want, and what is right.</p>
 
-
+<p>SCIONS AND SHADOWS is a series of novels and novellas that share the same universe. There is an overarching plot, but each book can be read as a stand-alone and in any order. They are listed below in chronological order.</p>
+<br/>
+<h2>Find more information, including maps, character art, and early draft chapters at the special <br/><a href="https://scionsandshadows.ink">Scions & Shadows website.</a>
+</div>
 <% @scions_books.each do | book |%>
+  <div class="pure-u-1 pure-u-md-1-2">
     <%= image_tag(book.cover_3d, height: '500') %>
     <h2><%= link_to(book.title, book.slug)%></h2>
-    <h3><%= book.intro_hook %></h3>
+    <h4><%= book.intro_hook %></h4>
     <p><%= book.main_description %></p>
     <br />
-    <h3><%= book.exit_hook %> </h3>
-    <%# <% book.purchase_links.each do | k, v |%>
-      <p><%#= link_to(k, v) %></p>
-    <%# end %>
+    <h4><%= book.exit_hook %> </h4>
+    <div class="pure-u-1 purchase-button-group">
+    <% book.purchase_links.each do | k, v |%>
+      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4"><p><%= link_to(k, v, class: "purchase-button") %></p></div>
+    <% end %>
+    </div>
+    </div>
 <% end %>
+</div>
+</div>

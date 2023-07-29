@@ -76,20 +76,36 @@ footer {
 	p {font-size: 1.7em; color: white; text-shadow: 3px 2px 2px $dark-purple;}
 }
 
-p { color: $light-purple }
+p { 
+	color: $light-purple;
+	font-size: 18pt;
+	line-height: 20pt;
+ }
 
 a { color: $dark-orange }
 
-h1 { color: $light-purple }
+h1 { 
+	color: $light-purple;
+	font-size: 36pt;
+	line-height: 38pt;
+ }
 
-h2 { color: $bright-pink }
+h2 { 
+	color: $bright-pink;
+	font-size: 32pt;
+	line-height: 34pt;
+ }
 
-h3 { color: $light-orange }
+h3 { 
+	color: $light-orange;
+	font-size: 28pt;
+	line-height: 30pt;
+ }
 
-h4 { color: $dark-purple }
 
-h5 { color: $dark-purple }
-
-h6 { color: $dark-purple }
-
-.pure-button {}
+h4 { 
+	
+color: lighten($pink-purple, 50%);
+	font-size: 24pt;
+	line-height: 26pt;
+}
