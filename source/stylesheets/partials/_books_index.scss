@@ -1,28 +1,38 @@
 .books-index {
-	padding: 2%;
+	// padding: 2%;
 
 	h1 { 
 		text-align: center;
-		font-family: 'IM Fell English SC', serif;
+		font-family: $Fell;
 		font-size: 42pt;
 	}
 	h2
 	{
 		text-align: center;
-		a { font-family: 'Cinzel Decorative', cursive; text-align: center;}
+		a { font-family: $Cinzel; text-align: center;}
 	}
 	h4 { text-align: center;}
 	.pure-u-md-1-2 {
-		padding: 1%;
+		padding-top: 1%;
 	}
-	.purchase-button-group {
-		text-align: center;
+	img { display: block; margin: auto; max-width: 95%;}
+
+	.books-cards {
+		box-shadow: $mobile-box-shadow;
+		@media screen and (min-width: 768px) {
+			box-shadow: none;
+	 	}
+		p {
+			text-align: center;
+			padding: 2%;
+			@media screen and (min-width: 768px) {
+					text-align: left;
+					padding: 1.5%;
+					box-shadow: none;
+	 		}
+
+		}
 	}
-	img { display: block; margin: auto;}
-	// @media screen and (min-width: 1600px) {
-	// 	// this is extra large screens
-		
-	//  }
 }
 
 .series-description {

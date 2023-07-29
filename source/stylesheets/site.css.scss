@@ -1,12 +1,19 @@
-$bright-pink: #DB4374;
-$dark-purple: #2C0149;
-$pink-purple: #6a065b;
-$dark-orange: #D03A45;
-$light-orange: #F15654;
-$light-purple: #DAC5F1;
+// PURECSS BREAKPOINTS
+
+// KEY   CSS MEDIA QUERY					     APPLIES         CLASS NAME
+
+// None	None	                                     Always	    .pure-u-*
+// sm	@media screen and (min-width: 35.5em)	   ≥ 568px	    .pure-u-sm-*
+// md	@media screen and (min-width: 48em)	       ≥ 768px	    .pure-u-md-*
+// lg	@media screen and (min-width: 64em)	       ≥ 1024px	    .pure-u-lg-*
+// xl	@media screen and (min-width: 80em)	       ≥ 1280px	    .pure-u-xl-*
+// xxl	@media screen and (min-width: 120em)	   ≥ 1920px	    .pure-u-xxl-*
+// xxxl	@media screen and (min-width: 160em)	   ≥ 2560px	    .pure-u-xxxl-*
+// x4k	@media screen and (min-width: 240em)	   ≥ 3840px	    .pure-u-x4k-*
 
 @import "partials/normalize";
 // @import "partials/style";
+@import "partials/variables";
 @import "partials/new_style";
 @import "partials/menu";
 @import "partials/home_page";

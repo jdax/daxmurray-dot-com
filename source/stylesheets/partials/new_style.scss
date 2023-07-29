@@ -1,25 +1,18 @@
-$bright-pink: #DB4374;
-$dark-purple: #2C0149;
-$pink-purple: #69065A;
-$dark-orange: #D03A45;
-$light-orange: #F15654;
-$light-purple: #DAC5F1;
-$dark-grey: #121212;
+@import '../partials/variables';
 
+// -------------------------------------- BODY --------------------------------------------//
 
 * {
-	font-family: 'Cormorant Garamond', serif;
+	font-family: $Garamond;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	@media only screen and (max-width: 880px) {
-	}
   }
 
 html, body {
 	background-image: linear-gradient($dark-purple, $dark-grey);
 	padding: 0;
-	margin: 0 auto;
-	overflow: auto;
+	margin: 0;
+	// overflow: auto; can't have this if I want position: sticky; to work 
 }
   
 
@@ -32,8 +25,10 @@ header {
 	overflow: auto;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	@media only screen and (max-width: 880px) {
-	  background-image: url('/images/branding/DM_Footer_Mobile.jpg');
+	background-position: center top;
+	@media only screen and (max-width: 700px) {
+	   background-image: url('/images/branding/DM_Footer_Mobile.jpg');
+	   background-position: center top;
 	  h1 {
 			text-align: center;
 			padding: 2%;
@@ -47,13 +42,13 @@ header {
 		padding: 3%;
 		font-size: 4em;
 		text-shadow: 3px 1px 2px $light-purple;
-		a { font-family: 'Cinzel Decorative', cursive; }
+		a { font-family: Cinzel; }
 	}
 	h2 { text-align: center; 
 		font-size: 2.5em; 
 		color: $dark-purple;
-		text-shadow: 3px 2px 2px $light-purple;
-		font-family: 'Cinzel Decorative', cursive;
+		text-shadow: 3px 2px 2px $light-purple; 
+		font-family: $Cinzel;
 	}
 
 	 a.header-link { text-decoration: none;}
@@ -76,10 +71,13 @@ footer {
 	p {font-size: 1.7em; color: white; text-shadow: 3px 2px 2px $dark-purple;}
 }
 
+// ----------------------------------------  TEXT     --------- -----------------------//
+
 p { 
 	color: $light-purple;
 	font-size: 18pt;
 	line-height: 20pt;
+	font-family: $Garamond;
  }
 
 a { color: $dark-orange }
@@ -108,4 +106,43 @@ h4 {
 	color: lighten($pink-purple, 50%);
 	font-size: 24pt;
 	line-height: 26pt;
+}
+
+ul li {
+    /* Bullet color */
+    color: $light-purple;
+    list-style-type: disc;
+}
+
+// ul li span { keeping this here for reference later, so far the only ul I have is menu
+//     /* Text color */
+//     color: black;
+// }
+
+// -------------------------------CUSTOM CLASSES ----------------------------------//
+
+// ------ buttons -----//
+.purchase-button {
+	display: inline-block;
+	padding: 0.45em;
+	text-align: center;
+	text-decoration: none;
+	color: $light-purple;
+	background-color: $pink-purple;
+	border-radius: 6px;
+	outline: none;
+	transition: 0.3s;
+	border: 2px solid transparent;
+	font-weight: 600;
+	font-size: 1.25em;
+  }
+
+.purchase-button:hover, 
+.purchase-button:focus {
+	background-color: lighten($pink-purple, 20%);
+	border-color: darken($pink-purple, 20%);
+}
+
+.purchase-button-group {
+	text-align: center;
 }
