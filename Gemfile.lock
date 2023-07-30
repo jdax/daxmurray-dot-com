@@ -114,6 +114,7 @@ DEPENDENCIES
   middleman-blog
   tzinfo-data
   wdm (~> 0.1)
+  webrick
 
 BUNDLED WITH
    2.4.6
