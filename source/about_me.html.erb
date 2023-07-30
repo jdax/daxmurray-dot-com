@@ -1,3 +1,38 @@
 ---
 layout: layout
 ---
+
+<div class="about-page">
+<% bio = app.data.bio %>
+
+	<h1>About Me </h1>
+	<div class="pure-g">
+		<div class="pure-u-1 pure-u-md-1-3 profile-img-container">
+			<%= image_tag(bio.me.photo, class: "book-card-img profile-photo") %>
+		</div>
+		<div class="pure-u-1 pure-u-md-2-3">
+			<p class="bio-text"><%= bio.me.description %></p>
+		</div>
+	</div>
+
+	<h1><%= link_to("The Kraken Colelctive", "example.com")%>
+	<div class="pure-g">
+		<div class="pure-u-1 pure-u-md-1-3">
+			<%= image_tag(bio.kraken.logo, class: "book-card-img") %>
+		</div>
+		<div class="pure-u-1 pure-u-md-2-3">
+			<p class="bio-text"><%= bio.kraken.description %>
+		</div>
+	</div>
+
+	<h1><%= link_to(bio.editing.name, bio.editing.link) %></h1>
+	<div class="pure-g">
+		<div class="pure-u-1 pure-u-md-1-3">
+			<%= image_tag(bio.editing.logo, class: "book-card-img")%>
+		</div>
+		<div class="pure-u-1 pure-u-md-2-3">
+			<p><%= bio.editing.description %></p>
+		</div>
+	</div>
+
+</div>
