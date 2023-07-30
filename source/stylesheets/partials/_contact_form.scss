@@ -1,0 +1,47 @@
+.contact-form {
+	max-width: 95%;
+	padding:  1% 1%;
+	text-align:center;
+	input {margin: 1% }
+
+	button {
+		text-align: center;
+		text-decoration: none;
+		color: $light-purple;
+		background-color: $pink-purple;
+		border-radius: 6px;
+		outline: none;
+		transition: 0.3s;
+		border: 2px solid transparent;
+		font-weight: 600;
+		font-size: 1.25em;
+		margin-top: 2%;
+	}
+		
+	button:hover, 
+	button:focus {
+		background-color: lighten($pink-purple, 20%);
+		border-color: darken($pink-purple, 20%);
+	}
+
+	.legend {
+		font-family: $Fell;
+		font-size: x-large;
+		color: $light-orange;
+	}
+
+}
+
+.menu-contact-form-embed {
+	display: none;
+	@media screen and (min-width: 1024px) {
+		display: block;
+	}
+}
+
+.layout-contact-form-embed {
+	display: block;
+	@media screen and (min-width: 1024px) {
+		display: none;
+	}
+}
