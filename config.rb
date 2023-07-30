@@ -99,3 +99,14 @@ helpers do
   end
 
 end
+
+# activate :deploy do |deploy|
+#   deploy.method = :git
+#   deploy.branch = 'main'
+#   deploy.build_before = true
+# end
+
+redirect "resignation-letter.html", to: "/the-magic-surrendered.html"
+redirect "the_magic_surrendered.html", to: "the-magic-surrendered.html"
+redirect "afterimages.html", to: "shades-and-silver.html"
+redirect "shades_and_silver.html", to: "shades-and-silver.html"
