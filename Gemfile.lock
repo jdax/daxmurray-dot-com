@@ -112,6 +112,7 @@ DEPENDENCIES
   middleman (~> 4.2)
   middleman-autoprefixer
   middleman-blog
+  middleman-cli
   tzinfo-data
   wdm (~> 0.1)
   webrick
