@@ -49,11 +49,13 @@ title: Dax Murray
         <div class="pure-u-1">
           <h3> <%= @coming_soon.exit_hook %> </h3>
         </div>
+        <% if !@coming_soon.purchase_links.nil? %>
         <div class="pure-u-1 purchase-button-group">
           <% @coming_soon.purchase_links.each do |name, link |%>
             <%= link_to(name, link, class: "purchase-button") %>
           <% end %>
         </div>
+        <% end %>
       </div>
     </div>
 </div>

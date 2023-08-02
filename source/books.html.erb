@@ -44,11 +44,13 @@ layout: layout
     <p><%= book.main_description %></p>
     <br />
     <h4><%= book.exit_hook %> </h4>
+    <% if !book.purchase_links.nil? %>
     <div class="pure-u-1 purchase-button-group">
     <% book.purchase_links.each do | k, v |%>
       <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4"><p><%= link_to(k, v, class: "purchase-button") %></p></div>
     <% end %>
     </div>
+    <% end %>
     </div>
 <% end %>
 </div>

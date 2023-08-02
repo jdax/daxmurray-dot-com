@@ -37,8 +37,7 @@
   main_description: "<p>She would live in the bustling port city of Whick with the reformed pirate she fell in love with and, one day, inherit her fathers' growing trading business.</p> <p>She did not intend to stumble into an anti-monarchy riot and become involved with the revolutionaries determined to overthrow the nobility and create a world without hunger, poverty and homelessness. A world with justice for all, and not just those with means. </p> <p>She did not want to catch the eye of a spoiled prince. She did not want him to pursue and court her, plunging her into a world of bickering dukes, suspicious foreign ambassadors, and scheming politicians.</p> <p>She did not seek out the attentions of ancient and secret religious orders, intent on controlling the machinations of a kingdom from the shadows.</p><p>But she did.</p>"
   exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos."
   review: null
-  purchase_links:
-    "Amazon": "https://example.com" 
+  purchase_links: null
   link: "/stars-and-soil.html"
   slug: stars-and-soil
   series_name: "Scions and Shadows"
@@ -49,7 +48,7 @@
   interior_design: null
   interior_illustrations:
     name: "Etheric Tales"
-    link: ""
+    link: "https://etherictales.com/"
   editor: null
   is_series: !!bool true
   scions: !!bool true
@@ -57,7 +56,7 @@
   poetry: !!bool false
   latest: !!bool false
   coming_soon: !!bool true
-  release_date: ""
+  release_date: "December 2023"
   
 - a-lake-of-feathers-and-moonbeams:
   title: "A Lake of Feathers & Moonbeams"
@@ -71,11 +70,11 @@
     review_text: "I loved the queer-positive fairy tale world, but I was pleasantly surprised to find that was only the backdrop for a subtle story about trust, betrayal, and new possibilities. I highly recommend it, even if you're not familiar with the original story!" 
     review_author: "~ Danika, The Lesbrary"
   purchase_links:
-    "Amazon": "https://example.com"
-    "B & N": "https://example.com"
-    "Apple": "https://example.com"
-    "Google": "https://example.com"
-    "Others": "https://1link.st/dax"
+    "Amazon": "https://www.amazon.com/dp/B08W3R96WJ/"
+    "B & N": "https://www.barnesandnoble.com/w/a-lake-of-feathers-and-moonbeams-dax-murray/1128933687/"
+    "Apple": "https://books.apple.com/us/book/id1439760650"
+    "Kobo": "https://www.kobo.com/us/en/ebook/a-lake-of-feathers-and-moonbeams"
+    "Others": "https://books2read.com/u/38rNJ7"
   link: "/feathers-and-moonbeams.html"
   slug: feathers-and-moonbeams
   series_name: null
@@ -100,7 +99,7 @@
   poetry: !!bool false
   latest: !!bool false
   coming_soon: !!bool false
-  release_date: ""
+  release_date: "October 20, 2017"
 
 - the-magic-surrendered:
   title: "The Magic Surrendered"
@@ -111,7 +110,7 @@
   exit_hook: "A short story about a brilliant mage and an insecure empress; of love and ethics, partnership and conflict."
   review: null
   purchase_links: 
-    "Amazon": "https://example.com"
+    "Amazon": "https://www.amazon.com/dp/B01MS9NU7F/"
   link: "/the-magic-surrendered.html"
   slug: the-magic-surrendered
   series_name: null
@@ -132,7 +131,7 @@
   poetry: !!bool false
   latest: !!bool false
   coming_soon: !!bool false
-  release_date: ""
+  release_date: "January 30, 2017"
 
 - birthing-orion:
   title: "Birthing Orion"
@@ -143,20 +142,20 @@
   exit_hook: "A beautiful love story in verse."
   review: null
   purchase_links:
-    "Amazon": "https://example.com"
+    "Amazon": "https://www.amazon.com/gp/product/B07FQR6Z8L"
   link: "/birthing-orion.html"
   slug: birthing-orion
   series_name: null
   cover_art:
-    name: "Meriliza Chan"
+    name: "Merilliza Chan"
     link: "https://merilliza.com"
   typography: null
   interior_design:
     name: "Aurelia Fray of Pretty AF Designs"
-    link: ""
+    link: "https://www.prettyafdesigns.com/"
   interior_illustrations: 
     name: "Aurelia Fray of Pretty AF Designs"
-    link: ""
+    link: "https://www.prettyafdesigns.com/"
   editor: null
   is_series: !!bool true
   scions: !!bool false
@@ -164,4 +163,4 @@
   poetry: !!bool true
   latest: !!bool false
   coming_soon: !!bool false
-  release_date: ""
+  release_date: "October 18, 2018"
