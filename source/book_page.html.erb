@@ -1,10 +1,10 @@
 ---
 layout: layout
 ---
-<div class="book-page">
 
 <% book = locals[:b] %>
-
+<% @title = "#{book.title} - Dax Murray" %>
+<div class="book-page">
   <h1 class="book-page-title-small-screen"> <%= book.title %> </h1>
 
   <div class="pure-g">
