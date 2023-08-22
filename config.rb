@@ -18,7 +18,7 @@ page '/*.txt', layout: false
 
 # dynamic pages for each book 
 @app.data.books.each do |b|
-  proxy "/#{b.slug}.html", "/book_page.html", :layout => false, :locals => { :b => b }, :ignore => true, :title => "#{b.title}"
+  proxy "/#{b.slug}.html", "/book_page.html", :layout => false, :locals => { :b => b }, :ignore => true
 end
 
 # With alternative layout
