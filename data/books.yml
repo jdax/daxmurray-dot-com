@@ -70,11 +70,14 @@
     review_text: "I loved the queer-positive fairy tale world, but I was pleasantly surprised to find that was only the backdrop for a subtle story about trust, betrayal, and new possibilities. I highly recommend it, even if you're not familiar with the original story!" 
     review_author: "~ Danika, <a href='http://lesbrary.com/'>The Lesbrary</a>"
   purchase_links:
+    "My Store": "https://store.daxmurray.com/l/feathers-and-moonbeams"
     "Amazon": "https://www.amazon.com/Lake-Feathers-Moonbeams-Dax-Murray-ebook/dp/B074D7CGT1?ref_=ast_author_mpb"
     "B & N": "https://www.barnesandnoble.com/w/a-lake-of-feathers-and-moonbeams-dax-murray/1128933687/"
     "Apple": "https://books.apple.com/us/book/id1439760650"
     "Kobo": "https://www.kobo.com/us/en/ebook/a-lake-of-feathers-and-moonbeams"
-    "Others": "https://books2read.com/u/38rNJ7"
+    "Smashwords": "https://www.smashwords.com/books/view/1432406"
+    "Scribd": "https://www.scribd.com/book/391298780/A-Lake-of-Feathers-and-Moonbeams"
+    "Others": "https://books2read.com/feathers-and-moonbeams"
   link: "/feathers-and-moonbeams.html"
   slug: feathers-and-moonbeams
   series_name: null
@@ -110,7 +113,11 @@
   exit_hook: "A short story about a brilliant mage and an insecure empress; of love and ethics, partnership and conflict."
   review: null
   purchase_links: 
+    "My Store": "https://store.daxmurray.com/l/magic-surrendered"
     "Amazon": "https://www.amazon.com/dp/B01MS9NU7F/"
+    "Kobo": "https://www.kobo.com/us/en/ebook/the-magic-surrendered"
+    "Smashwords": "https://www.smashwords.com/books/view/1444936"
+    "Others": "https://books2read.com/magic-surrendered"
   link: "/the-magic-surrendered.html"
   slug: the-magic-surrendered
   series_name: null
