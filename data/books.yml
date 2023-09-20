@@ -3,6 +3,7 @@
   title: "Shades & Silver"
   cover_flat: "images/shades-and-silver/shades_and_silver_flat.jpg"
   cover_3d: "images/shades-and-silver/shades_and_silver_3d.png"
+  animated_3d_cover: '<script src="https://3dbook.xyz/api/books/6507d29c45d4d5004a83add5/cover.js"></script>'
   intro_hook: "Stories of identity, doubt, and belonging"
   main_description: "<p>The birthright of every Ástfríður is to know each metal in the earth, command it, bend it to their desires. To hear metal singing, some of it waiting just beneath the surface, so much of it deeper in the earth. If they wanted, the knew they could pluck that metal from the earth, melt it with a thought, and shape it as they pleased with a breath of air and their will.</p> <p>Each Ástfríður must choose which metal they would wear upon their heads, denoting the path they would walk. They craft beautiful horns to wear on their brow, forged with the metal they wish to identify with. But Britt does not know if they can choose the path they want, if they can overcome a past which has stolen their identity. The day has come for them to choose and they have no idea if they have any right to even try to. And Astrid has never felt the pull of the metal at all Wearing a forged circlet and horn, they try to navigate a world that they feel has rejected them, all the while fearing someone will learn their secret."
   exit_hook: "The Veil of the Ástfríður has kept them hidden from the world and safe from intruders. Yet Britt and Astrid feel they are imposters in their own homes."
@@ -33,6 +34,7 @@
   title: "Stars & Soil"
   cover_flat: "/images/stars-and-soil/stars_and_soil_flat.jpg"
   cover_3d:  "/images/stars-and-soil/stars_soil_3d_mockup_centered_paperback.png"
+  animated_3d_cover: '<script src="https://3dbook.xyz/api/books/650b3f1945d4d5004a83aee8/cover.js"></script>'
   intro_hook: "Caitlin had her whole life planned out until a grusome murder sets her on a collision course with fate and magic."
   main_description: "<p>She would live in the bustling port city of Whick with the reformed pirate she fell in love with and, one day, inherit her fathers' growing trading business.</p> <p>She did not intend to stumble into an anti-monarchy riot and become involved with the revolutionaries determined to overthrow the nobility and create a world without hunger, poverty and homelessness. A world with justice for all, and not just those with means. </p> <p>She did not want to catch the eye of a spoiled prince. She did not want him to pursue and court her, plunging her into a world of bickering dukes, suspicious foreign ambassadors, and scheming politicians.</p> <p>She did not seek out the attentions of ancient and secret religious orders, intent on controlling the machinations of a kingdom from the shadows.</p><p>But she did.</p>"
   exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos."
@@ -62,6 +64,7 @@
   title: "A Lake of Feathers & Moonbeams"
   cover_flat: "/images/alofam/alofam_flat.jpg"
   cover_3d: "/images/alofam/alofam_3d.png"
+  animated_3d_cover: '<script src="https://3dbook.xyz/api/books/65088ab345d4d5004a83ae36/cover.js"></script>'
   intro_hook:
     How many half-truths could loyalty shoulder before it broke from the weight of deception on its back?
   main_description: "<p>Strange things can be said of the forest that spans the border of two kingdoms long at war. An evil sorcerer has made it his dominion, or an elegant enchantress has claimed it as her domain and grants wishes to those who chance upon her, or maybe the forest is guarded by an ancient and wrathful spirit. But Katya calls the forest home, living a life of magic and charms with her partner Ivan. </p><p>But a threat looms over their forest, some darkness and danger that Ivan swears to protect her from. Katya finds herself caught up in a web of grudges and deception spanning generations, but most dangerous of all is the beautiful princess who stumbled into their woods. A princess who sets Katya’s heart fluttering with both desire and fear. As forces rally to rescue the princess or go to war, Katya must take measure of her own powers and decide what she is willing to sacrifice.</p>"
@@ -108,6 +111,7 @@
   title: "The Magic Surrendered"
   cover_flat: "/images/the-magic-surrendered/the_magic_surrendered_flat.jpg"
   cover_3d: "/images/the-magic-surrendered/the_magic_surrendered_3d.png"
+  animated_3d_cover: '<script src="https://3dbook.xyz/api/books/650b3f7745d4d5004a83aee9/cover.js"></script>'
   intro_hook: "I haven’t been trying to build a weapon! I have been trying to prevent a war. Ellie, please don't make me do this."
   main_description: "<p>After generations of relentless expansion, Empress Eleanor is ready to put her family's habit for conquest behind her, content to cease her army's forward march and solidify her position as the ruler of the territories already in her possession. But these countries her fathers conquered are eager to leave the Empire and willing to resort to revolution.</p><p>Amalthea grew up poor, her homeland destitute after being invaded and occupied. But her new status as a citizen of the sparkling empire gives her access to the Academy of Mages and all of their teachings. However, once there, she defies their rules and pursues her own experiments with dangerous and forbidden magics. Despite this, she catches the Empress's eye and is soon the first official Imperial Scientist and the unofficial consort.</p>"
   exit_hook: "A short story about a brilliant mage and an insecure empress; of love and ethics, partnership and conflict."
@@ -144,6 +148,7 @@
   title: "Birthing Orion"
   cover_flat: "/images/birthing-orion/birthing_orion_flat.jpg"
   cover_3d: "images/birthing-orion/birthing_orion_thin_3d.png"
+  animated_3d_cover: '<script src="https://3dbook.xyz/api/books/650b3fe645d4d5004a83aeea/cover.js"></script>'
   intro_hook: "Too fondly have I loved these stars; all these galaxies we once called ours."
   main_description: "The relationship between the two goddesses is tempestuous at best. Seya is the embodiment of a galactic creation and Tia of cosmic destruction. They create and they destroy and then they do it all over again. Seya and Tia use their divine magic to make pulsars and nebula, to set planets spinning around stars and bind a galaxy together with a central black hole.</p><p>But when one of Seya's favorite stars goes missing, she blames Tia. What was once a symbiotic cycle of life and death becomes a game of broken hearts and promises betrayed. These tensions and insecurities are explored in sonnets and villanelles; the arc of their love tracked in meter and verse. These poems touch on queer love, betrayal, trust, acceptance, and forgiveness cast against a backdrop of stardust and celestial detritus.</p>"
   exit_hook: "A beautiful love story in verse."

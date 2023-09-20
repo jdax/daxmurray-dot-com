@@ -17,7 +17,8 @@ title: Dax Murray
           <h3><%= @latest_release.intro_hook %></h3>
         </div>
         <div class="pure-u-1">
-          <%= image_tag(@latest_release.cover_3d, height: '500', class: "book-card-img") %>
+          <!-- <%= image_tag(@latest_release.cover_3d, height: '500', class: "book-card-img") %> -->
+          <%= @latest_release.animated_3d_cover %>
         </div>
       <br />  
         <div class="pure-u-1">
@@ -43,7 +44,8 @@ title: Dax Murray
           <h3> <%= @coming_soon.intro_hook %> </h3>
         </div>
         <div class="pure-u-1">
-          <%= image_tag(@coming_soon.cover_3d, height: '500', class: "book-card-img") %>
+          <!-- <%= image_tag(@coming_soon.cover_3d, height: '500', class: "book-card-img") %> -->
+          <%= @coming_soon.animated_3d_cover %>
         </div>
           <br/>
         <div class="pure-u-1">
