@@ -35,11 +35,12 @@
   cover_flat: "/images/stars-and-soil/stars_and_soil_flat.jpg"
   cover_3d:  "/images/stars-and-soil/stars_soil_3d_mockup_centered_paperback.png"
   animated_3d_cover: '<script src="https://3dbook.xyz/api/books/650b3f1945d4d5004a83aee8/cover.js"></script>'
-  intro_hook: "Caitlin had her whole life planned out until a grusome murder sets her on a collision course with fate and magic."
-  main_description: "<p>She would live in the bustling port city of Whick with the reformed pirate she fell in love with and, one day, inherit her fathers' growing trading business.</p> <p>She did not intend to stumble into an anti-monarchy riot and become involved with the revolutionaries determined to overthrow the nobility and create a world without hunger, poverty and homelessness. A world with justice for all, and not just those with means. </p> <p>She did not want to catch the eye of a spoiled prince. She did not want him to pursue and court her, plunging her into a world of bickering dukes, suspicious foreign ambassadors, and scheming politicians.</p> <p>She did not seek out the attentions of ancient and secret religious orders, intent on controlling the machinations of a kingdom from the shadows.</p><p>But she did.</p>"
+  intro_hook: "Coming October 30th EXCLUSIVELY to Campfire Explore!"
+  main_description: "<p><b>Caitlin had her whole life planned out until a grusome murder sets her on a collision course with fate and magic.</b></p> <p>She would live in the bustling port city of Whick with the reformed pirate she fell in love with and, one day, inherit her fathers' growing trading business.</p> <p>She did not intend to stumble into an anti-monarchy riot and become involved with the revolutionaries determined to overthrow the nobility and create a world without hunger, poverty and homelessness. A world with justice for all, and not just those with means. </p> <p>She did not want to catch the eye of a spoiled prince. She did not want him to pursue and court her, plunging her into a world of bickering dukes, suspicious foreign ambassadors, and scheming politicians.</p> <p>She did not seek out the attentions of ancient and secret religious orders, intent on controlling the machinations of a kingdom from the shadows.</p><p>But she did.</p>"
   exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos."
   review: null
-  purchase_links: null
+  purchase_links:
+    "Campfire Exclusive": "https://www.campfi.re/stars-and-soil"
   link: "/stars-and-soil.html"
   slug: stars-and-soil
   series_name: "Scions and Shadows"
@@ -47,7 +48,7 @@
     name: Sarah Waites of the Illustrated Page
     link: "https://theillustratedpage.net/design/"
   typography: null
-  interior_design: null
+  interior_design:
   interior_illustrations:
     name: "Etheric Tales"
     link: "https://etherictales.com/"
@@ -58,7 +59,7 @@
   poetry: !!bool false
   latest: !!bool false
   coming_soon: !!bool true
-  release_date: "December 2023"
+  release_date: "October 30th, 2023"
   
 - a-lake-of-feathers-and-moonbeams:
   title: "A Lake of Feathers & Moonbeams"
