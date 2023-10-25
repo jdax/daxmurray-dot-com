@@ -26,7 +26,7 @@
   scions: !!bool true
   standalone: !!bool false
   poetry: !!bool false
-  latest: !!bool true
+  latest: !!bool false
   coming_soon: !!bool false
   release_date: "February 12, 2021"
 
@@ -57,9 +57,37 @@
   scions: !!bool true
   standalone: !!bool false
   poetry: !!bool false
+  latest: !!bool true
+  coming_soon: !!bool false
+  release_date: "October 30th, 2023"
+
+- smoke-and-steel:
+  title: "Smoke & Steel"
+  cover_flat: "/images/smoke-and-steel/smoke-and-steel-flat.jpg"
+  cover_3d:  "/images/smoke-and-steel/smoke-and-steel-3d.png"
+  animated_3d_cover: '<script src="https://3dbook.xyz/api/books/650b3fe645d4d5004a83aeea/cover.js"></script>'
+  intro_hook: "<b>At the Crossroads of Tomorrow</b>"
+  main_description: "<p></p><p>Being the youngest of the Sua royals never stopped Saritrah from scheming to take the throne. But violent insurrectionists shattered those plans when they stormed the palace and decimated her family.</p><p>In the years since, she has amassed an army and will return to claim her crown. However, Ashur, her one remaining sibling, has done the same, and she must act soon if she's to secure her prize before he snatches it from her claws.</p><p>After Ashur razes the Temple of Yshuld, the surviving Seers promise her the power to ensure victory. But it will mean abandoning her legion to venture into the endless desert and locate a lost city.</p><p>Soon, however, she suspects that none of the women are who they claim to be, even to each other. One woman cryptically alludes to a paradisical past; another awakens in the night plagued by dreams of a frightening future; the last woman never speaks. But the more she questions her new companions' motives, the more she must question her own.</p>"
+  exit_hook: "Is the vision of calamity an omen of what will happen if she fails? Or a promise of what will come if she succeeds?"
+  review: null
+  purchase_links: null
+  link: "/smoke-and-steel.html"
+  slug: smoke-and-steel
+  series_name: "Scions and Shadows"
+  cover_art: 
+    name: GetCovers
+    link: "https://getcovers.com"
+  typography: null
+  interior_design: null
+  interior_illustrations: null
+  editor: null
+  is_series: !!bool true
+  scions: !!bool true
+  standalone: !!bool false
+  poetry: !!bool false
   latest: !!bool false
   coming_soon: !!bool true
-  release_date: "October 30th, 2023"
+  release_date: "May 15, 2024"
   
 - a-lake-of-feathers-and-moonbeams:
   title: "A Lake of Feathers & Moonbeams"
@@ -149,7 +177,7 @@
   title: "Birthing Orion"
   cover_flat: "/images/birthing-orion/birthing_orion_flat.jpg"
   cover_3d: "images/birthing-orion/birthing_orion_thin_3d.png"
-  animated_3d_cover: '<script src="https://3dbook.xyz/api/books/650b3fe645d4d5004a83aeea/cover.js"></script>'
+  animated_3d_cover: null
   intro_hook: "Too fondly have I loved these stars; all these galaxies we once called ours."
   main_description: "The relationship between the two goddesses is tempestuous at best. Seya is the embodiment of a galactic creation and Tia of cosmic destruction. They create and they destroy and then they do it all over again. Seya and Tia use their divine magic to make pulsars and nebula, to set planets spinning around stars and bind a galaxy together with a central black hole.</p><p>But when one of Seya's favorite stars goes missing, she blames Tia. What was once a symbiotic cycle of life and death becomes a game of broken hearts and promises betrayed. These tensions and insecurities are explored in sonnets and villanelles; the arc of their love tracked in meter and verse. These poems touch on queer love, betrayal, trust, acceptance, and forgiveness cast against a backdrop of stardust and celestial detritus.</p>"
   exit_hook: "A beautiful love story in verse."
