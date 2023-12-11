@@ -1,0 +1,31 @@
+---
+layout: layout
+title: Dax Murray - Beta and Advance Reading Team
+---
+
+<div class="about-page">
+<% reader = app.data.arc %>
+
+
+	<h1>For Readers and Reviewers</h1>
+
+	<h1><%= reader.beta.name %></h1>
+	<p><%= reader.beta.description %>
+	<div>
+	<%= partial '_beta_reader_form_embed' %>
+	</div>
+
+	<h1><%= reader.arc.name %></h1>
+	<p><%= reader.arc.description %>
+	<div>
+	<%= partial '_arc_team_form_embed' %>
+	</div>
+
+
+	<h1><%= reader.post.name %></h1>
+	<p><%= reader.post.description %>
+	<%= partial '_reviewers_form_embed' %>
+
+
+<p></p>
+</div>
