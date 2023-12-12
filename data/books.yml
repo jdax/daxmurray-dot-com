@@ -10,6 +10,8 @@
   review: null
   purchase_links:
     "Amazon": "https://www.amazon.com/Shades-Silver-Scions-Shadows-Murray-ebook/dp/B08W3R96WJ/"
+    "My Store": "https://store.daxmurray.com/l/shades-and-silver"
+    "Other Stores": "https://books2read.com/shades-and-silver"
   link: "/shades-and-silver.html"
   slug: shades-and-silver
   series_name: "Scions and Shadows"
@@ -184,6 +186,9 @@
   review: null
   purchase_links:
     "Amazon": "https://www.amazon.com/gp/product/B07FQR6Z8L"
+    "Apple": "https://books.apple.com/us/book/birthing-orion/id1445935148"
+    "Kobo": "https://www.kobo.com/us/en/ebook/birthing-orion"
+    "Smashwords": "https://www.smashwords.com/books/view/1477559"
     "My Store": "https://store.daxmurray.com/l/birthing-orion"
     "Others": "https://books2read.com/birthing-orion"
   link: "/birthing-orion.html"

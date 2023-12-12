@@ -5,6 +5,7 @@ layout: layout
 <% book = locals[:b] %>
 <% @title = "#{book.title} - Dax Murray" %>
 <div class="book-page">
+  <h3> <a href="/">Home</a> // <a href="/books">Books</a> // <%= link_to(book.title, book.slug)%> </h3>
   <h1 class="book-page-title-small-screen"> <%= book.title %> </h1>
 
   <div class="pure-g">
