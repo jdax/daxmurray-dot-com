@@ -6,11 +6,12 @@
   animated_3d_cover: '<script src="https://3dbook.xyz/api/books/6507d29c45d4d5004a83add5/cover.js"></script>'
   intro_hook: "Stories of identity, doubt, and belonging"
   main_description: "<p>The birthright of every Ástfríður is to know each metal in the earth, command it, bend it to their desires. To hear metal singing, some of it waiting just beneath the surface, so much of it deeper in the earth. If they wanted, the knew they could pluck that metal from the earth, melt it with a thought, and shape it as they pleased with a breath of air and their will.</p> <p>Each Ástfríður must choose which metal they would wear upon their heads, denoting the path they would walk. They craft beautiful horns to wear on their brow, forged with the metal they wish to identify with. But Britt does not know if they can choose the path they want, if they can overcome a past which has stolen their identity. The day has come for them to choose and they have no idea if they have any right to even try to. And Astrid has never felt the pull of the metal at all Wearing a forged circlet and horn, they try to navigate a world that they feel has rejected them, all the while fearing someone will learn their secret."
-  exit_hook: "The Veil of the Ástfríður has kept them hidden from the world and safe from intruders. Yet Britt and Astrid feel they are imposters in their own homes."
+  exit_hook: "The Veil of the Ástfríður has kept them hidden from the world and safe from intruders. Yet Britt and Astrid feel they are imposters in their own homes. <br/> <br/><p>Get a copy for FREE by <a href='https://newsletter.daxmurray.com'> signing up for my newsletter</a> OR when you purchase <a href='https://stars.daxmurray.com'><i>Stars and Soil</i> on Campfire</a>!</p>" 
   review: null
   purchase_links:
-    "Amazon": "https://www.amazon.com/Shades-Silver-Scions-Shadows-Murray-ebook/dp/B08W3R96WJ/"
     "My Store": "https://store.daxmurray.com/l/shades-and-silver"
+    "Amazon": "https://www.amazon.com/Shades-Silver-Scions-Shadows-Murray-ebook/dp/B08W3R96WJ/"
+    "Apple": "https://books.apple.com/us/book/shades-and-silver/id1552626521"
     "Other Stores": "https://books2read.com/shades-and-silver"
   link: "/shades-and-silver.html"
   slug: shades-and-silver
@@ -39,7 +40,7 @@
   animated_3d_cover: '<script src="https://3dbook.xyz/api/books/650b3f1945d4d5004a83aee8/cover.js"></script>'
   intro_hook: "Coming October 30th EXCLUSIVELY to Campfire Explore!"
   main_description: "<p><b>Caitlin had her whole life planned out until a grusome murder sets her on a collision course with fate and magic.</b></p> <p>She would live in the bustling port city of Whick with the reformed pirate she fell in love with and, one day, inherit her fathers' growing trading business.</p> <p>She did not intend to stumble into an anti-monarchy riot and become involved with the revolutionaries determined to overthrow the nobility and create a world without hunger, poverty and homelessness. A world with justice for all, and not just those with means. </p> <p>She did not want to catch the eye of a spoiled prince. She did not want him to pursue and court her, plunging her into a world of bickering dukes, suspicious foreign ambassadors, and scheming politicians.</p> <p>She did not seek out the attentions of ancient and secret religious orders, intent on controlling the machinations of a kingdom from the shadows.</p><p>But she did.</p>"
-  exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos."
+  exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos. <br/><br/><p>Purchasing on Campfire gives you access to a treasure trove of bonus content, including maps, character profiles with extensive backstories and bios, AND free access to <i>Shades and Silver</i>, with more added once a month!<p>"
   review: null
   purchase_links:
     "Campfire Exclusive": "https://www.campfi.re/stars-and-soil"
@@ -70,7 +71,7 @@
   animated_3d_cover: '<script src="https://3dbook.xyz/api/books/650b3fe645d4d5004a83aeea/cover.js"></script>'
   intro_hook: "<b>At the Crossroads of Tomorrow</b>"
   main_description: "<p></p><p>Being the youngest of the Sua royals never stopped Saritrah from scheming to take the throne. But violent insurrectionists shattered those plans when they stormed the palace and decimated her family.</p><p>In the years since, she has amassed an army and will return to claim her crown. However, Ashur, her one remaining sibling, has done the same, and she must act soon if she's to secure her prize before he snatches it from her claws.</p><p>After Ashur razes the Temple of Yshuld, the surviving Seers promise her the power to ensure victory. But it will mean abandoning her legion to venture into the endless desert and locate a lost city.</p><p>Soon, however, she suspects that none of the women are who they claim to be, even to each other. One woman cryptically alludes to a paradisical past; another awakens in the night plagued by dreams of a frightening future; the last woman never speaks. But the more she questions her new companions' motives, the more she must question her own.</p>"
-  exit_hook: "Is the vision of calamity an omen of what will happen if she fails? Or a promise of what will come if she succeeds?"
+  exit_hook: "Is the vision of calamity an omen of what will happen if she fails? Or a promise of what will come if she succeeds?<br/><p>Get a sneak peak at the first chapter and a chance to at an ARC copy by signing up for my <a href='https://newsletter.daxmurray.com'>newsletter!</a></p>"
   review: null
   purchase_links: null
   link: "/smoke-and-steel.html"
@@ -185,11 +186,11 @@
   exit_hook: "A beautiful love story in verse."
   review: null
   purchase_links:
+    "My Store": "https://store.daxmurray.com/l/birthing-orion"
     "Amazon": "https://www.amazon.com/gp/product/B07FQR6Z8L"
     "Apple": "https://books.apple.com/us/book/birthing-orion/id1445935148"
     "Kobo": "https://www.kobo.com/us/en/ebook/birthing-orion"
     "Smashwords": "https://www.smashwords.com/books/view/1477559"
-    "My Store": "https://store.daxmurray.com/l/birthing-orion"
     "Others": "https://books2read.com/birthing-orion"
   link: "/birthing-orion.html"
   slug: birthing-orion
