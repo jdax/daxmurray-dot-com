@@ -12,6 +12,9 @@
     "My Store": "https://store.daxmurray.com/l/shades-and-silver"
     "Amazon": "https://www.amazon.com/Shades-Silver-Scions-Shadows-Murray-ebook/dp/B08W3R96WJ/"
     "Apple": "https://books.apple.com/us/book/shades-and-silver/id1552626521"
+    "Kobo": "https://www.kobo.com/us/en/ebook/shades-and-silver"
+    "Everand": "https://www.everand.com/book/493673556/Shades-and-Silver-Scions-and-Shadows-1"
+    "Smashwords": "https://www.smashwords.com/books/view/1493542?ref="
     "Other Stores": "https://books2read.com/shades-and-silver"
   link: "/shades-and-silver.html"
   slug: shades-and-silver
@@ -111,7 +114,7 @@
     "Apple": "https://books.apple.com/us/book/id1439760650"
     "Kobo": "https://www.kobo.com/us/en/ebook/a-lake-of-feathers-and-moonbeams"
     "Smashwords": "https://www.smashwords.com/books/view/1432406"
-    "Scribd": "https://www.scribd.com/book/391298780/A-Lake-of-Feathers-and-Moonbeams"
+    "Everand": "https://www.everand.com/book/391298780/A-Lake-of-Feathers-and-MoonbeamsA-Lake-of-Feathers-and-Moonbeams"
     "Others": "https://books2read.com/feathers-and-moonbeams"
   link: "/feathers-and-moonbeams.html"
   slug: feathers-and-moonbeams
@@ -151,6 +154,7 @@
   purchase_links: 
     "My Store": "https://store.daxmurray.com/l/magic-surrendered"
     "Amazon": "https://www.amazon.com/dp/B01MS9NU7F/"
+    "Everand": "https://www.everand.com/book/668562106/The-Magic-Surrendered"
     "Kobo": "https://www.kobo.com/us/en/ebook/the-magic-surrendered"
     "Smashwords": "https://www.smashwords.com/books/view/1444936"
     "Others": "https://books2read.com/magic-surrendered"
