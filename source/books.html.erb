@@ -54,7 +54,13 @@ title: Dax Murray - Books
     <div class="pure-u-1 purchase-button-group">
       <% if !book.purchase_direct.nil? %>
         <%= link_to("Buy Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
+        <br/>
       <% end %>
+
+        <% if !book.purchase_links.nil? && !book.purchase_direct.nil? %>
+          <h3>Purchase Elsewhere:</h3> <!-- this is here because of STARS AND SOIL right now since it doesn't have a "purchase direct" and there's nowhere else to purchase it and SMOKE has no purchase links at all soo -->
+        <% end %>
+
     <% if !book.purchase_links.nil? %>
     <% book.purchase_links.each do | k, v |%>
       <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4"><p><%= link_to(k, v, class: "purchase-button") %></p></div>
