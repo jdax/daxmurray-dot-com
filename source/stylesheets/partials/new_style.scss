@@ -137,8 +137,29 @@ ul li {
 	font-size: 1.25em;
   }
 
+  .direct-purchase-button {
+	display: inline-block;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: $light-purple;
+	background-color: $pink-purple;
+	border-radius: 7px;
+	outline: none;
+	transition: 0.3s;
+	border: 5px solid transparent;
+	font-weight: 600;
+	font-size: 1.5em;
+  }
+
 .purchase-button:hover, 
 .purchase-button:focus {
+	background-color: lighten($pink-purple, 20%);
+	border-color: darken($pink-purple, 20%);
+}
+
+.direct-purchase-button:hover, 
+.direct-purchase-button:focus {
 	background-color: lighten($pink-purple, 20%);
 	border-color: darken($pink-purple, 20%);
 }

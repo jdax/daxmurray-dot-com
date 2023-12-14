@@ -63,7 +63,13 @@ layout: layout
     </div>
   </div>
 
+    <div class="pure-u-1 purchase-button-group">
+      <% if !book.purchase_direct.nil? %>
+        <%= link_to("Buy Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
+    <% end %>
+<br/>
   <% if !book.purchase_links.nil? %>
+  <h3>Purchase elswhere:</h3>
   <div class="purchase-button-group">
       <% book.purchase_links.each do |k, v |%>
         <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><p><%= link_to(k, v, class: "purchase-button") %></p></div>
