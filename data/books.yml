@@ -46,8 +46,9 @@
   main_description: "<p><b>Caitlin had her whole life planned out until a grusome murder sets her on a collision course with fate and magic.</b></p> <p>She would live in the bustling port city of Whick with the reformed pirate she fell in love with and, one day, inherit her fathers' growing trading business.</p> <p>She did not intend to stumble into an anti-monarchy riot and become involved with the revolutionaries determined to overthrow the nobility and create a world without hunger, poverty and homelessness. A world with justice for all, and not just those with means. </p> <p>She did not want to catch the eye of a spoiled prince. She did not want him to pursue and court her, plunging her into a world of bickering dukes, suspicious foreign ambassadors, and scheming politicians.</p> <p>She did not seek out the attentions of ancient and secret religious orders, intent on controlling the machinations of a kingdom from the shadows.</p><p>But she did.</p>"
   exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos. <br/><br/><p>Purchasing on Campfire gives you access to a treasure trove of bonus content, including maps, character profiles with extensive backstories and bios, AND free access to <i>Shades and Silver</i>, with more added once a month!<p>"
   review: null
+  purchase_direct: "https://daxmurray.lemonsqueezy.com/checkout/buy/c8e98b13-53bc-44fb-a98c-feec7ea7ec23?embed=1"
   purchase_links:
-    "Campfire Exclusive": "https://www.campfi.re/stars-and-soil"
+    "Book + Campfire Exclusive Bonus Materials": "https://www.campfi.re/stars-and-soil"
   link: "/stars-and-soil.html"
   slug: stars-and-soil
   series_name: "Scions and Shadows"

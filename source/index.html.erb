@@ -25,7 +25,13 @@ title: Dax Murray
           <h3> <%= @latest_release.exit_hook %> </h3>
         </div>
         <div class="pure-u-1 purchase-button-group">
+          <% if !@latest_release.purchase_direct.nil? %>
+              <%= link_to("Buy Now", @latest_release.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
+          <% end %>
+          <br/>
+          
           <% @latest_release.purchase_links.each do |name, link |%>
+          <h3>Purchase Elsewhere:</h3>
             <%= link_to(name, link, class: "purchase-button") %>
           <% end %>
         </div>
