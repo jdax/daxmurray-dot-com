@@ -15,8 +15,8 @@ title: Dax Murray - Books
     <%= image_tag(book.cover_3d, height: '500', class: "book-card-img") %>
     <h2><%= link_to(book.title, book.slug)%></h2>
     <h4><%= book.intro_hook %></h4>
-    <p><%= book.main_description %></p>
-    <h4><%= book.exit_hook %> </h4>
+    <p><%= book.short_description %></p>
+    <p><i><b><%= book.exit_hook %></i></b> </p>
     <div class="pure-u-1 purchase-button-group">
               <% if !book.purchase_direct.nil? %>
               <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
@@ -49,8 +49,8 @@ title: Dax Murray - Books
     <%= image_tag(book.cover_3d, height: '500', class: "book-card-img") %>
     <h2><%= link_to(book.title, book.slug)%></h2>
     <h4><%= book.intro_hook %></h4>
-    <p><%= book.main_description %></p>
-    <h4><%= book.exit_hook %> </h4>
+    <p><%= book.short_description %></p>
+    <p><i><b><%= book.exit_hook %> </i></b></p>
     <div class="pure-u-1 purchase-button-group">
       <% if !book.purchase_direct.nil? %>
         <%= link_to("Buy Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
@@ -69,5 +69,10 @@ title: Dax Murray - Books
     <% end %>
     </div>
 <% end %>
+</div>
+
+<hr class="horizontal-line">
+<div class="tier-card">
+<%= partial '_ream_promo' %>
 </div>
 </div>

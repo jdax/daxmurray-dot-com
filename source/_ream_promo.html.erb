@@ -1,0 +1,27 @@
+<% etc = app.data.etc %>
+<% tiers = app.data.tier %>
+
+<div class="pure-u-1"><h1><%= etc.ream.heading %></h1></div>
+<%= image_tag(etc.ream.image) %>
+<div class="pure-u-1 series-description">
+	<p><%= etc.ream.description %></p>
+	<div class="pure-u-1 purchase-button-group"><%= link_to("Join Today!", etc.ream.permalink, class:"purchase-button direct-purchase-button tier-button") %> 	<br/></div>
+</div>
+
+<% tiers.each do | tier |%>
+	<div class="pure-g">
+	<br/>
+	<hr class="horizontal-line">
+	<br/>
+		<div class="pure-u-1 pure-u-md-1-3 profile-img-container">
+			<%= image_tag(tier.image, class: "book-card-img profile-photo tier-img") %>
+		</div>
+		<div class="pure-u-1 pure-u-md-2-3">
+			<h3 class="bio-text"><%= tier.name %></h3>
+			<p class="bio-text"><b><%= tier.price %></b></p>
+			<p class="bio-text"><%= tier.description %></p>
+		</div>
+	</div>
+	<br/>
+	
+<% end %>
