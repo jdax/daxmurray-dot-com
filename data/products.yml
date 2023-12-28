@@ -1,13 +1,19 @@
 ---
 - book-formatting:
-  name: "Interior Formatting and Design for Print and Digital Books"
+  name: "Interior Formatting"
   price: "$35.00 -45.00 USD"
   photo: "/images/products/book_formatting.png"
-  description: "Affordable ebook and print formatting for all distrubotrs, file types, and trim sizes. Standard package includes 1 licensed image for 500,000 prints, premium includes five plus formatting for complex items like maps or non-standard layouts. I use a combo of Indesign, Sigil, and Atticus to create a beautiful book for you. FREE updates for minor tweaks and revisions in the future, such as fixing typos or changing your backmatter!"
+  description: "Affordable ebook and print formatting and design for print and digital, for all distributors, file types, and trim sizes. Standard package includes 1 licensed image for 500,000 prints, premium includes five plus formatting for complex items like maps or non-standard layouts. I use a combo of Indesign, Sigil, and Atticus to create a beautiful book for you. FREE updates for minor tweaks and revisions in the future, such as fixing typos or changing your backmatter!"
   lemon_link: "https://daxmurray.lemonsqueezy.com/checkout/buy/ea5d734e-81e6-41d2-9b87-d30cbfc1fe63?embed=1"
 - revision-journal:
   name: "Revision Journal"
   price: "Pay What You Want - Even Free"
   photo: "/images/products/revision_planner.png"
-  description: "Two Styles; Crystals and Starbursts! PDF. For authors & writers who need guidance and organization during revisions and self-edits. Scene-by-scene level pages, track character arcs, feedback from betas and editors, plan your week, and more! Includes PDF and link to canva template! Perfect for disc-bound planners and compatable with GoodNote and Penly."
+  description: "Two Styles; Crystals and Starbursts! PDF. For authors & writers who need guidance and organization during revisions and self-edits. Scene-by-scene level pages, track character arcs, feedback from betas and editors, plan your week, and more! Includes PDF and link to canva template! Perfect for disc-bound planners and compatable with GoodNote and Penly. <a href='https://blog.daxmurray.com/new-revision-journal'>Checkout my blog post for more about this novel revision planner.</a>"
   lemon_link: "https://daxmurray.lemonsqueezy.com/checkout/buy/61211dcb-f640-4d67-a6ba-ab2965a5439a?embed=1"
+- revision-tracker:
+  name: "Revision Tracker"
+  price: "Pay What You Want - Even Free"
+  photo: "/images/products/revision_tracker.png"
+  description: "Easily track the entire process of editing your book! At a glance, see what chapters still need work, where you are in the process of reviewing beta reader feedback, track how many hours you write per day and find your most productive days, get forecasts on projected deadline if you continue to proceed at your current rate. Easily add in your own pages, detailed instructions on how to customize it and still have all the formulas work the way they should without you needed to touch anything! The workbook has a great README that explains how it is set up and how you can modify it for your own use. <a href='https://blog.daxmurray.com/my-amazing-novel-editing-progress-tracking-spreadsheet'>You can also check out the blog post I wrote about it.</a>"
+  lemon_link: "https://daxmurray.lemonsqueezy.com/checkout/buy/61111ad8-0295-41fe-8557-772cc9a6017c?embed=1"
