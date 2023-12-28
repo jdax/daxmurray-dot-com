@@ -1,0 +1,21 @@
+---
+layout: layout
+title: Dax Murray - Products and Services
+---
+<% products = app.data.products %>
+<div class="home-page">
+<h1>Products and Services for Authors</h1>
+<p>As an independent author myself, I know how expensive this business can be. I strive to create products and offer services that help other authors achieve their dream and simplify their life. Please check back often, I am always working on new things!</p>
+<hr class="horizontal-rule">
+<% products.each do |product| %>
+  <div class="pure-u-1 pure-u-md-1-2 pure-u-xxl-1-3 books-cards">
+    <%= image_tag(product.photo, height: '500', class: "book-card-img") %>
+	<h1><%= product.name %></h1>
+	<h2><%= product.price %></h2>
+    <p><%= product.description %></p>
+    	<div class="pure-u-1 purchase-button-group">
+			<%= link_to("Order Now", product.lemon_link, class:"lemonsqueezy-button direct-purchase-button") %>
+    	</div>
+  	</div>
+	<% end %>
+</div>
