@@ -3,19 +3,24 @@ layout: layout
 title: Dax Murray - Products and Services
 ---
 <% products = app.data.products %>
+
 <div class="book-page products-page">
-<h1>Products and Services for Authors</h1>
-<p>As an independent author myself, I know how expensive this business can be. I strive to create products and offer services that help other authors achieve their dream and simplify their life. Please check back often, I am always working on new things! If you need editing services, <a href="http://www.enchantedediting.com">please visit my main editing website for more details.</a> I write revolutionary fantasy, and I want to revolutionize your writing and publishing process, too.</p>
-<hr class="horizontal-rule">
-<% products.each do |product| %>
-  <div class="pure-u-1 pure-u-md-1-2 pure-u-xxl-1-3 books-cards product-cards">
-    <%= image_tag(product.photo, height: '500', class: "book-card-img") %>
-	<h1><%= product.name %></h1>
-	<h2><%= product.price %></h2>
-    <p><%= product.description %></p>
-    	<div class="pure-u-1 purchase-button-group">
-			<%= link_to("Order Now", product.lemon_link, class:"lemonsqueezy-button direct-purchase-button") %>
-    	</div>
-  	</div>
+<div class="pure-g">
+
+	<div class="pure-u-1"><h1>Products and Services for Authors</h1></div>
+	<div class="pure-u-1"><p>As an independent author myself, I know how expensive this business can be. I strive to create products and offer services that help other authors achieve their dream and simplify their life. Please check back often, I am always working on new things! If you need editing services, <a href="http://www.enchantedediting.com">please visit my main editing website for more details.</a> I write revolutionary fantasy, and I want to revolutionize your writing and publishing process, too.</p></div>
+	<div class="pure-u-1"><hr class="horizontal-rule"></div>
+
+	<% products.each do |product| %>
+		<div class="pure-u-1 pure-u-md-1-2 pure-u-xxl-1-3 books-cards product-cards">
+		<%= image_tag(product.photo, height: '500', class: "book-card-img") %>
+		<h1><%= product.name %></h1>
+		<h2><%= product.price %></h2>
+		<p><%= product.description %></p>
+			<div class="pure-u-1 purchase-button-group">
+				<%= link_to("Order Now", product.lemon_link, class:"lemonsqueezy-button direct-purchase-button") %>
+			</div>
+		</div>
 	<% end %>
+</div>
 </div>
