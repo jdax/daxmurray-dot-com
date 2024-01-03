@@ -7,7 +7,8 @@
 	<p><%= etc.ream.description %></p>
 	<div class="pure-u-1 purchase-button-group"><%= link_to("Join Today!", etc.ream.permalink, class:"purchase-button direct-purchase-button tier-button") %> 	<br/></div>
 </div>
-
+<%= image_tag(etc.ream.tier_image) %>
+<p> </p>
 <% tiers.each do | tier |%>
 	<div class="pure-g">
 	<br/>
