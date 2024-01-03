@@ -176,3 +176,8 @@ ul li {
 	margin: 0 auto;
 	padding-top: 12%;
 }
+
+.shadow-effect {
+	box-shadow: 0 4px 8px 0 $light-purple, 0 6px 20px 0 $light-purple;
+	//filter: drop-shadow(100px 100px 100px 100px rgb(218,197,241)) !important; I have been trying to get this to work for hours now and I can't figure it out. I want to use this effect on /products but because of the padding, box-shadow looks goofy.
+}
