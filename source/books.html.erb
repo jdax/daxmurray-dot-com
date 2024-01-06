@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: shopify_layout
 title: Dax Murray - Books
 ---
 <% get_standalones %>
@@ -20,11 +20,14 @@ title: Dax Murray - Books
     <div class="pure-u-1 purchase-button-group">
               <% if !book.purchase_direct.nil? %>
               <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-                <%= link_to("Buy Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
+                <%= link_to("Buy Ebook Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
                 </div>
               <% end %>
-              <% if !book.purchase_paperback.nil? %>
-                <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><%= book.purchase_paperback %></div>
+              <%# if !book.purchase_paperback.nil? %>
+                <!-- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><%= book.purchase_paperback %></div> -->
+              <%# end %>
+              <% if !book.purchase_shopify.nil? %>
+                  <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><span class="direct-purchase-button" style="margin: 7px;"><%= book.purchase_shopify %></span></div>
               <% end %>
               <br/>
               <h3>Purchase elsewhere:</h3>
@@ -56,10 +59,13 @@ title: Dax Murray - Books
     <p><i><b><%= book.exit_hook %> </i></b></p>
     <div class="pure-u-1 purchase-button-group">
       <% if !book.purchase_direct.nil? %>
-        <%= link_to("Buy Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
+        <%= link_to("Buy Ebook Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
       <% end %>
-      <% if !book.purchase_paperback.nil? %>
-        <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><%= book.purchase_paperback %></div>
+      <%# if !book.purchase_paperback.nil? %>
+        <!--div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><%= book.purchase_paperback %></div> -->
+      <%# end %>
+      <% if !book.purchase_shopify.nil? %>
+        <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><span class="purchase-button"><%= book.purchase_shopify %></span></div>
       <% end %>
       <br/>
       <% if !book.purchase_links.nil? && !book.purchase_direct.nil? %>

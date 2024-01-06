@@ -1,20 +1,24 @@
 <% book = locals[:b] %>
+
 <div class="pure-u-1 purchase-button-group">
-      <% if !book.purchase_direct.nil? %>
-        <%= link_to("Buy Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
+    <% if !book.purchase_direct.nil? %>
+      <%= link_to("Buy Ebook Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
     <% end %>
-    <% if !book.purchase_paperback.nil? %>
-        <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><%= book.purchase_paperback %></div>
+    <%# if !book.purchase_paperback.nil? %>
+      <!-- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><%= book.purchase_paperback %></div> -->
+    <%# end %>
+    <% if !book.purchase_shopify.nil? %>
+      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6" style="text-align: center; width: 100%;"><span class="direct-purchase-button"style="margin: 7px;"><%= book.purchase_shopify %></span></div>
     <% end %>
   <br/>
-<% if !book.purchase_links.nil? && !book.purchase_direct.nil? %>
+  <% if !book.purchase_links.nil? && !book.purchase_direct.nil? %>
     <h3>Purchase Elsewhere:</h3> <!-- this is here because of STARS AND SOIL right now since it doesn't have a "purchase direct" and there's nowhere else to purchase it and SMOKE has no purchase links at all soo -->
   <% end %>
   <% if !book.purchase_links.nil? %>
-  <div class="purchase-button-group">
-    <% book.purchase_links.each do |k, v |%>
-      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><p><%= link_to(k, v, class: "purchase-button") %></p></div>
+    <div class="purchase-button-group">
+      <% book.purchase_links.each do |k, v |%>
+        <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><p><%= link_to(k, v, class: "purchase-button") %></p></div>
     <% end %>
   </div>
-<% end %>
+  <% end %>
 </div>

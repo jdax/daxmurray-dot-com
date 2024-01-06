@@ -51,6 +51,7 @@
   review: null
   purchase_direct: "https://daxmurray.lemonsqueezy.com/checkout/buy/c8e98b13-53bc-44fb-a98c-feec7ea7ec23?embed=1"
   purchase_paperback: "<a href='https://payhip.com/b/vJcq3' class='payhip-buy-button direct-purchase-button' data-theme='none' data-product='vJcq3'>Special Edition Paperback</a>"
+  purchase_shopify: '<div id="product-component-1704417065388"></div>'
   purchase_links:
     "Book + Campfire Exclusive Bonus Materials": "https://www.campfi.re/stars-and-soil"
   link: "/stars-and-soil.html"
