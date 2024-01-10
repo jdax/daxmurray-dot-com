@@ -17,6 +17,15 @@
   editing: !!bool false
   character: !!bool false
   marketing: !!bool false
+- super-structure:
+  title: "Super Structure"
+  author: "James Scott Bell"
+  cover: ""
+  purchase_affiliat_link: 'https://amzn.to/47w2zQj'
+  plotting: !!bool true
+  editing: !!bool false
+  character: !!bool false
+  marketing: !!bool false
 - romancing-the-beat:
   title: "Romancing the Beat"
   author: "Gwen Hayes"
@@ -82,9 +91,9 @@
   marketing: !!bool true
 - story-origin:
   title: "StoryOrigin"
-  author: "Tammi Labreque"
+  author: ""
   cover: ""
-  purchase_affiliat_link: "https://storyoriginapp.com/?via=dax"
+  purchase_affiliat_link: 'https://storyoriginapp.com/?via=dax'
   plotting: !!bool false
   editing: !!bool false
   character: !!bool false
