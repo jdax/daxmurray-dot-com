@@ -3,7 +3,7 @@
   title: "Outlining Your Novel"
   author: "KM Weiland"
   cover: ""
-  purchase_affiliat_link: "https://amzn.to/3NT0oPJ"
+  purchase_affiliat_link: 'https://amzn.to/3NT0oPJ'
   plotting: !!bool true
   editing: !!bool false
   character: !!bool false
@@ -12,7 +12,7 @@
   title: "Structuring Your Novel"
   author: "KM Weiland"
   cover: ""
-  purchase_affiliate_link: "https://amzn.to/4aI4xj8"
+  purchase_affiliat_link: 'https://amzn.to/4aI4xj8'
   plotting: !!bool true
   editing: !!bool false
   character: !!bool false
@@ -21,7 +21,7 @@
   title: "Romancing the Beat"
   author: "Gwen Hayes"
   cover: ""
-  purchase_affiliate_link: "https://amzn.to/3HbKQmb"
+  purchase_affiliat_link: 'https://amzn.to/3HbKQmb'
   plotting: !!bool true
   editing: !!bool false
   character: !!bool false
@@ -30,7 +30,7 @@
   title: "Secrets to Outlining Your Novel"
   author: "K. Stanley & L. Cooke"
   cover: ""
-  purchase_affiliate_link: "https://amzn.to/3TXJPWz"
+  purchase_affiliat_link: "https://amzn.to/3TXJPWz"
   plotting: !!bool true
   editing: !!bool false
   character: !!bool false
@@ -39,7 +39,7 @@
   title: "Take Off Your Pants: Outline Your Books for Faster, Better Writing"
   author: "Libbie Hawker"
   cover: ""
-  purchase_affiliate_link: "https://amzn.to/3vCGoub"
+  purchase_affiliat_link: 'https://amzn.to/3vCGoub'
   plotting: !!bool true
   editing: !!bool false
   character: !!bool false
@@ -48,16 +48,16 @@
   title: "Creating Character Arcs"
   author: "KM Weiland"
   cover: ""
-  purchase_affiliate_link: "https://amzn.to/3RQCQMy"
+  purchase_affiliat_link: 'https://amzn.to/3RQCQMy'
   plotting: !!bool false
   editing: !!bool false
   character: !!bool true
   marketing: !!bool false
 - self-editing-for-fiction-writers:
   title: "Self-Editing for Fiction Writers"
-  author: "Browne, Renni; King, Dave"
+  author: "Renni Browne and Dave King"
   cover: ""
-  purchase_affiliate_link: "https://amzn.to/48OMc2m"
+  purchase_affiliat_link: 'https://amzn.to/48OMc2m'
   plotting:  !!bool false
   editing: !!bool true
   character: !!bool false
@@ -66,7 +66,7 @@
   title: "The Artful Edit"
   author: "Susan Bell"
   cover: ""
-  purchase_affiliate_link: "https://amzn.to/3TWjhF8"
+  purchase_affiliat_link: 'https://amzn.to/3TWjhF8'
   plotting:  !!bool false
   editing: !!bool true
   character: !!bool false
@@ -75,8 +75,18 @@
   title: "Newsletter Ninja"
   author: "Tammi Labreque"
   cover: ""
-  purchase_affiliate_link: "https://amzn.to/3TVkBIy"
+  purchase_affiliat_link: 'https://amzn.to/3TVkBIy'
   plotting: !!bool false
   editing: !!bool false
   character: !!bool false
   marketing: !!bool true
+- story-origin:
+  title: "StoryOrigin"
+  author: "Tammi Labreque"
+  cover: ""
+  purchase_affiliat_link: "https://storyoriginapp.com/?via=dax"
+  plotting: !!bool false
+  editing: !!bool false
+  character: !!bool false
+  marketing: !!bool false
+  software: !!bool true

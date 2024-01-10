@@ -33,7 +33,7 @@ title: Dax Murray - Recommendations
 	<% recommendations.each do |recommendation| %>
 		<div>
 		<% if recommendation.character? %>
-		<li><b><h3 style="text-align: left;"><%= link_to(recommendation.title,recommendation.purchase_affiliat_link )%></b></h3><p><i>(Affiliate Link)</i> by <%= recommendation.author %></p>
+		<li><b><h3 style="text-align: left;"><%= link_to(recommendation.title, recommendation.purchase_affiliat_link )%></b></h3><p><i>(Affiliate Link)</i> by <%= recommendation.author %></p>
 		</li>
 		<% end %>
 		</div>
@@ -49,7 +49,7 @@ title: Dax Murray - Recommendations
 	<% recommendations.each do |recommendation| %>
 		<div>
 		<% if recommendation.editing? %>
-		<li><b><h3 style="text-align: left;"><%= link_to(recommendation.title,recommendation.purchase_affiliat_link )%></b></h3><p><i>(Affiliate Link)</i> by <%= recommendation.author %></p>
+		<li><b><h3 style="text-align: left;"><%= link_to(recommendation.title, recommendation.purchase_affiliat_link )%></b></h3><p><i>(Affiliate Link)</i> by <%= recommendation.author %></p>
 		</li>
 		<% end %>
 		</div>
@@ -65,7 +65,22 @@ title: Dax Murray - Recommendations
 	<% recommendations.each do |recommendation| %>
 		<div>
 		<% if recommendation.marketing? %>
-		<li><b><h3 style="text-align: left;"><%= link_to(recommendation.title,recommendation.purchase_affiliat_link )%></b></h3><p><i>(Affiliate Link)</i> by <%= recommendation.author %></p>
+		<li><b><h3 style="text-align: left;"><%= link_to(recommendation.title, recommendation.purchase_affiliat_link )%></b></h3><p><i>(Affiliate Link)</i> by <%= recommendation.author %></p>
+		</li>
+		<% end %>
+		</div>
+	<% end %>
+	</ul>
+	</div>
+		<div class="pure-u-1"><hr class="horizontal-rule"></div>
+	<br/><br/>
+	<div>
+	<h2>Software & Apps</h2>
+	<ul>
+	<% recommendations.each do |recommendation| %>
+		<div>
+		<% if recommendation.software? %>
+		<li><b><h3 style="text-align: left;"><%= link_to(recommendation.title, recommendation.purchase_affiliat_link )%></b></h3><p><i>(Affiliate Link)</i></p>
 		</li>
 		<% end %>
 		</div>
