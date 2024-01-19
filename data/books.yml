@@ -31,6 +31,7 @@
   interior_design: null
   interior_illustrations: null
   editor: null
+  awards: "Indie Ink Award Finalist 2023: Disability Representation by a Disabled Author"
   is_series: !!bool true
   scions: !!bool true
   standalone: !!bool false
@@ -144,6 +145,7 @@
   editor:
     name: "Jen Anderson at Clearing Blocks Editing"
     link: "https://www.clearingblocksediting.com/"
+  awards: "Indie Ink Award Finalist 2023: Non-Binary and Trans Representation"
   is_series: !!bool false
   scions: !!bool false
   standalone: !!bool true

@@ -14,7 +14,10 @@ title: Dax Murray - Books
   <div class="pure-u-1 pure-u-md-1-2 pure-u-xxl-1-3 books-cards">
     <%= image_tag(book.cover_3d, height: '500', class: "book-card-img") %>
     <h2><%= link_to(book.title, book.slug)%></h2>
-    <h4><%= book.intro_hook %></h4>
+    <% if book.awards? %>
+    <h4 style="text-align: center;"><%= book.awards %> </h4>
+    <% end %>
+    <!-- <h4><%= book.intro_hook %></h4> -->
     <p><%= book.short_description %></p>
     <p><i><b><%= book.exit_hook %></i></b> </p>
     <div class="pure-u-1 purchase-button-group">
@@ -54,7 +57,10 @@ title: Dax Murray - Books
   <div class="pure-u-1 pure-u-md-1-2 books-cards">
     <%= image_tag(book.cover_3d, height: '500', class: "book-card-img") %>
     <h2><%= link_to(book.title, book.slug)%></h2>
-    <h4><%= book.intro_hook %></h4>
+    <% if book.awards? %>
+    <h4 style="text-align: center;"><%= book.awards %> </h4>
+    <% end %>
+    <!-- <h4><%= book.intro_hook %></h4> -->
     <p><%= book.short_description %></p>
     <p><i><b><%= book.exit_hook %> </i></b></p>
     <div class="pure-u-1 purchase-button-group">

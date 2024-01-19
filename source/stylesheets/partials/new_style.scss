@@ -134,7 +134,15 @@ ul li {
 	transition: 0.3s;
 	border: 2px solid transparent;
 	font-weight: 600;
-	font-size: 1.25em;
+	font-size: 1.12em;
+	min-width: 175px;
+	width: 175px;
+	@media only screen and (max-width: 1050px) {
+		font-weight: 600;
+		font-size: 0.65em;
+		min-width: 95px;
+		width: 95px;
+	}
   }
 
   .direct-purchase-button {
@@ -150,6 +158,7 @@ ul li {
 	border: 5px solid transparent;
 	font-weight: 600;
 	font-size: 1.5em;
+
   }
 
 .purchase-button:hover, 
