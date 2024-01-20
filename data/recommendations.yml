@@ -99,3 +99,13 @@
   character: !!bool false
   marketing: !!bool false
   software: !!bool true
+- ream-stories:
+  title: "Ream Stories"
+  author: ""
+  cover: ""
+  purchase_affiliat_link: 'https://reamstories.com/create/daxaeterna'
+  plotting: !!bool false
+  editing: !!bool false
+  character: !!bool false
+  marketing: !!bool false
+  software: !!bool true
