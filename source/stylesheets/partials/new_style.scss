@@ -56,6 +56,12 @@ header {
 		2px 2px 2px $light-purple; 
 		font-family: $Cinzel;
 	}
+	p {
+		/* Hide the text. Still want the text here for SEO purposes and to make sure the header image displays, but don't want the text to show on screen*/
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
 
 	 a.header-link { text-decoration: none;}
 }
