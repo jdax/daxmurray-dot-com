@@ -19,15 +19,16 @@ html, body {
 header {
 	top: 0;
 	width: 100%;
-	background-image: url('/images/branding/DM_Footer.jpg');
-	padding: 0;
+	background-image: url('/images/branding/prida_font_dm_header_web.png');
+	padding: 10%;
 	margin: 0;
 	overflow: auto;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-position: center top;
-	@media only screen and (max-width: 700px) {
-	   background-image: url('/images/branding/DM_Footer_Mobile.jpg');
+	min-height:300px;
+	@media only screen and (max-width: 350px) {
+	   background-image: url('/images/branding/prida_font_mobile_footer.png');
 	   background-position: center top;
 	  h1 {
 			text-align: center;
@@ -58,6 +59,13 @@ header {
 
 	 a.header-link { text-decoration: none;}
 }
+.nav-embed {
+	@media only screen and (max-width: 350px) {
+		margin-top: 0.25em;
+	}
+	margin-top: -5em;
+ }
+
 
 footer {
 	width: 100%;
