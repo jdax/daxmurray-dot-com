@@ -38,4 +38,25 @@ $light-purple: #DAC5F1;
 }
 
 
+// This code right here is what makes the things stop appearing in the menu and appear at the bottom of the page instead, for the contact form, this equivalent in in the _contact_form scss
+.menu-embed {
+	display: none;
+	@media screen and (min-width: 1024px) {
+		display: block;
+	}
+}
+
+.layout-newsletter-form-embed {
+	display: block;
+	@media screen and (min-width: 1024px) {
+		display: none;
+	}
+}
+.layout-ream-support-embed {
+	display: block;
+	@media screen and (min-width: 1024px) {
+		display: none;
+	}
+}
+
 

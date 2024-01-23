@@ -161,6 +161,29 @@ ul li {
 
   }
 
+  .ream-button {
+	display: inline-block;
+	padding: 0.5em;
+	text-align: center;
+	text-decoration: none;
+	color: $dark-purple;
+	background-color: $light-purple;
+	border-radius: 7px;
+	outline: none;
+	transition: 0.3s;
+	border: 5px solid transparent;
+	font-weight: 600;
+	font-size: 1.5em;
+	max-width: 75%;
+  }
+
+  .ream-button:hover,
+  .ream-button:focus {
+	background-color: lighten($light-purple, 20%);
+	border-color: darken($pink-purple, 20%);
+  }
+
+
 .purchase-button:hover, 
 .purchase-button:focus {
 	background-color: lighten($pink-purple, 20%);
@@ -171,6 +194,10 @@ ul li {
 .direct-purchase-button:focus {
 	background-color: lighten($pink-purple, 20%);
 	border-color: darken($pink-purple, 20%);
+}
+
+.ream-button-embed {
+	text-align: center;
 }
 
 .purchase-button-group {
