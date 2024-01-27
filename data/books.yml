@@ -67,6 +67,7 @@
     name: "Etheric Tales"
     link: "https://etherictales.com/"
   editor: null
+  awards: 'Nominated for Best Overall Fantasy, Best Epic Fantasy, Best Dark Fantasy, and Best Supporting Character for the Queer Indie Awards'
   is_series: !!bool true
   scions: !!bool true
   standalone: !!bool false
