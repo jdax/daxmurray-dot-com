@@ -48,3 +48,18 @@
 	border-style: solid;
 
 }
+
+.long-progress {
+	position: relative;
+}
+progress {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	display: flex;
+	min-width: 62%;
+}
+
+progress::-webkit-progress-value {background-color: #3f51b5 !important;}
+progress::-moz-progress-bar {background-color: #3f51b5 !important;}
+progress {accent-color: #3f51b5;}
