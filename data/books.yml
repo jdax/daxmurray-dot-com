@@ -12,11 +12,12 @@
   purchase_direct: "https://daxmurray.lemonsqueezy.com/checkout/buy/695e727b-c455-4b09-aa75-4a1d1bd4fd0f?embed=1"
   purchase_paperback: null
   purchase_links:
-    "Gumroad": "https://store.daxmurray.com/l/shades-and-silver"
-    "Amazon": "https://www.amazon.com/Shades-Silver-Scions-Shadows-Murray-ebook/dp/B08W3R96WJ/"
+    "Amazon": "https://amzn.to/3SKg6PR"
     "Apple": "https://books.apple.com/us/book/shades-and-silver/id1552626521"
-    "Kobo": "https://www.kobo.com/us/en/ebook/shades-and-silver"
+    "B & N": "https://www.barnesandnoble.com/w/shades-and-silver-dax-murray/1144482257"
     "Everand": "https://www.everand.com/book/493673556/Shades-and-Silver-Scions-and-Shadows-1"
+    "Gumroad": "https://store.daxmurray.com/l/shades-and-silver"
+    "Kobo": "https://www.kobo.com/us/en/ebook/shades-and-silver"
     "Smashwords": "https://www.smashwords.com/books/view/1493542?ref="
     "Other Stores": "https://books2read.com/shades-and-silver"
   link: "/shades-and-silver.html"
@@ -120,13 +121,14 @@
     review_author: "~ Danika, <a href='http://lesbrary.com/'>The Lesbrary</a>"
   purchase_direct: "https://daxmurray.lemonsqueezy.com/checkout/buy/ac8af7c7-3d97-4ac3-bab7-4b900605931b?embed=1"
   purchase_links:
-    "Gumroad": "https://store.daxmurray.com/l/feathers-and-moonbeams"
-    "Amazon": "https://www.amazon.com/Lake-Feathers-Moonbeams-Dax-Murray-ebook/dp/B074D7CGT1?ref_=ast_author_mpb"
-    "B & N": "https://www.barnesandnoble.com/w/a-lake-of-feathers-and-moonbeams-dax-murray/1128933687/"
+    "Campfire": "https://www.campfirewriting.com/explore/feathers-and-moonbeams"
+    "Amazon": "https://amzn.to/3I562ep"
     "Apple": "https://books.apple.com/us/book/id1439760650"
+    "B & N": "https://www.barnesandnoble.com/w/a-lake-of-feathers-and-moonbeams-dax-murray/1128933687/"
+    "Everand": "https://www.everand.com/book/391298780/A-Lake-of-Feathers-and-MoonbeamsA-Lake-of-Feathers-and-Moonbeams"
+    "Gumroad": "https://store.daxmurray.com/l/feathers-and-moonbeams"
     "Kobo": "https://www.kobo.com/us/en/ebook/a-lake-of-feathers-and-moonbeams"
     "Smashwords": "https://www.smashwords.com/books/view/1432406"
-    "Everand": "https://www.everand.com/book/391298780/A-Lake-of-Feathers-and-MoonbeamsA-Lake-of-Feathers-and-Moonbeams"
     "Others": "https://books2read.com/feathers-and-moonbeams"
   link: "/feathers-and-moonbeams.html"
   slug: feathers-and-moonbeams
@@ -167,9 +169,11 @@
   review: null
   purchase_direct: "https://daxmurray.lemonsqueezy.com/checkout/buy/a6da1e56-3ad2-4b8b-8a80-eeffa48b9e55?embed=1"
   purchase_links: 
-    "Gumroad": "https://store.daxmurray.com/l/magic-surrendered"
     "Amazon": "https://www.amazon.com/dp/B01MS9NU7F/"
+    "Apple": "https://books.apple.com/us/book/the-magic-surrendered/id6466098021"
+    "B & N": "https://www.barnesandnoble.com/w/the-magic-surrendered-dax-murray/1144022467?ean=2940167199422"
     "Everand": "https://www.everand.com/book/668562106/The-Magic-Surrendered"
+    "Gumroad": "https://store.daxmurray.com/l/magic-surrendered"
     "Kobo": "https://www.kobo.com/us/en/ebook/the-magic-surrendered"
     "Smashwords": "https://www.smashwords.com/books/view/1444936"
     "Audible": "https://www.audible.com/pd/The-Resignation-Letter-Audiobook/B07JH672P5"
@@ -208,9 +212,10 @@
   review: null
   purchase_direct: "https://daxmurray.lemonsqueezy.com/checkout/buy/c13f3f6f-dcc7-4a7e-82b9-cf559bfd377b?embed=1"
   purchase_links:
-    "Gumroad": "https://store.daxmurray.com/l/birthing-orion"
     "Amazon": "https://www.amazon.com/gp/product/B07FQR6Z8L"
     "Apple": "https://books.apple.com/us/book/birthing-orion/id1445935148"
+    "B & N": "https://www.barnesandnoble.com/w/birthing-orion-dax-murray/1129763335?ean=2940156104185"
+    "Gumroad": "https://store.daxmurray.com/l/birthing-orion"
     "Kobo": "https://www.kobo.com/us/en/ebook/birthing-orion"
     "Smashwords": "https://www.smashwords.com/books/view/1477559"
     "Others": "https://books2read.com/birthing-orion"
