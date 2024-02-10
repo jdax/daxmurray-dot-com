@@ -1,20 +1,20 @@
 - sorcery-seeker:
   name: Sorcery Seekers
   price: $3.99 per month
-  image: "/images/branding/sorcery_seekers.png"
+  image: "/images/branding/new_sorcery_seekers.png"
   description: <ul><li>Full access to the backlist!</li><li>2 chapters or other pieces of content from my current WIP (Currently <i>Smoke and Steel</i>)</li><li>Short stories</li><li>2 chapter a month of Ream Exclusive serial (Currently <i>The Last Page</i>)</li><li><b>Access to my latest release 1 week before it launches at retailers!</b></li></ul>
 - enchantment-enthusiasts:
   name: Enchantment Enthusiasts
   price: $9.99 per month
-  image: "/images/branding/enchantment_enthusiasts.png"
+  image: "/images/branding/new_enchantment_enthusiasts.png"
   description: <ul><li>My entire backlist</li><li>3 chapters from my WIP or other bits of content from my WIP (Currently <i>Smoke and Steel</i></li><li>Access to other bonus materials or content such as short stories</li><li>SPICY deleted scenes</li><li>Your name (if you want) in the acknowledgements!</li><li>2 chapters a month of a Ream Exclusive serial (Currently <i>The Last Page</i>)</li><li>New releases 3 weeks or earlier before they launch at retailers!</i></ul>
 - arcane-aficionados:
   name: Arcane Aficionados
   price: $30 per month
-  image: "/images/branding/arcane_aficionado.png"
+  image: "/images/branding/new_arcane_aficionados.png"
   description: <ul><li>All previous tiers!</li><li>Bi-annual goodies box (June and December) including stickers, bookmarks, and a physical bind up that includes all bonus materials and shorts shared here during that time!</li><li>Physical paperback of new releases signed by the author and delivered to your door before release date!</li></ul>
 - witchy-writers:
   name: Witchy Writers
   price: $50 per month
-  image:  "/images/branding/witchy_writers.png"
+  image:  "/images/branding/new_witchy_writers.png"
   description: <ul><li>All previous tiers!</li><li>Complimentary edit of your manuscript--30k words per month subscribed!</li></ul>
