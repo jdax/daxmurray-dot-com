@@ -25,15 +25,15 @@ title: Dax Murray - Books
               <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
                 <%= link_to("Buy Ebook Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
                 </div>
+                <br/>
+                <h3>Purchase elsewhere:</h3>
               <% end %>
               <%# if !book.purchase_paperback.nil? %>
                 <!-- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><%= book.purchase_paperback %></div> -->
               <%# end %>
-              <% if !book.purchase_shopify.nil? %>
-                  <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><span class="direct-purchase-button" style="margin: 7px;"><%= book.purchase_shopify %></span></div>
-              <% end %>
-              <br/>
-              <h3>Purchase elsewhere:</h3>
+              <%# if !book.purchase_shopify.nil? %>
+                  <!-- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><span class="direct-purchase-button" style="margin: 7px;"><%#= book.purchase_shopify %></span></div> -->
+              <%# end %> 
           <% book.purchase_links.each do |k, v |%>
             <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4"><p><%= link_to(k, v, class: "purchase-button") %></p></div>
           <% end %>
