@@ -21,6 +21,7 @@
     "Kobo": "https://www.kobo.com/us/en/ebook/shades-and-silver"
     "Smashwords": "https://www.smashwords.com/books/view/1493542?ref="
     "Other Stores": "https://books2read.com/shades-and-silver"
+  ubl: "https://read.daxmurray.com/all/shades-and-silver"
   link: "/shades-and-silver.html"
   slug: shades-and-silver
   series_name: "Scions and Shadows"
@@ -49,14 +50,15 @@
   animated_3d_cover: '<script src="https://3dbook.xyz/api/books/650b3f1945d4d5004a83aee8/cover.js"></script>'
   intro_hook: "It is not enough to kill a king... Revolutions kill kingdoms"
   main_description: "<p><b>Caitlin had her whole life planned out until a grusome murder sets her on a collision course with fate and magic.</b></p> <p>She would live in the bustling port city of Whick with the reformed pirate she fell in love with and, one day, inherit her fathers' growing trading business.</p> <p>She did not intend to stumble into an anti-monarchy riot and become involved with the revolutionaries determined to overthrow the nobility and create a world without hunger, poverty and homelessness. A world with justice for all, and not just those with means. </p> <p>She did not want to catch the eye of a spoiled prince. She did not want him to pursue and court her, plunging her into a world of bickering dukes, suspicious foreign ambassadors, and scheming politicians.</p> <p>She did not seek out the attentions of ancient and secret religious orders, intent on controlling the machinations of a kingdom from the shadows.</p><p>But she did.</p>"
-  exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos. <br/><br/><p>Purchasing on Campfire gives you access to a treasure trove of bonus content, including maps, character profiles with extensive backstories and bios, AND free access to <i>Shades and Silver</i>, with more added once a month!<p>"
+  exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos. <br/><br/><p>Purchasing on Campfire gives you access to a treasure trove of bonus content, including maps, character profiles with extensive backstories and bios, AND free access to <i>Shades and Silver</i>, with more added frequently!<p>"
   short_description: Caitlin's life takes a dark turn after a gruesome murder entwines her with fate and magic. Unintentionally caught an anti-monarchy riot, she joins revolutionaries aiming for justice beyond social divides. But unwanted attention from a spoiled prince then immerses her in a world of political intrigue and secretive religious orders. In this unexpected journey, Caitlin must navigate the maelstrom and confront the powers that shape the kingdom's destiny from the shadows.
   review: null
   purchase_direct: "https://daxmurray.lemonsqueezy.com/checkout/buy/c8e98b13-53bc-44fb-a98c-feec7ea7ec23?embed=1"
   purchase_paperback: "<a href='https://payhip.com/b/vJcq3' class='payhip-buy-button direct-purchase-button' data-theme='none' data-product='vJcq3'>Special Edition Paperback</a>"
   purchase_shopify: '<div id="product-component-1704417065388"></div>'
-  purchase_links:
-    "Book + Campfire Exclusive Bonus Materials": "https://www.campfi.re/stars-and-soil"
+  has_campfire: !!bool true 
+  campfire_link: "https://www.campfi.re/stars-and-soil"
+  purchase_links: null
   link: "/stars-and-soil.html"
   slug: stars-and-soil
   series_name: "Scions and Shadows"
@@ -121,8 +123,9 @@
     review_text: "I loved the queer-positive fairy tale world, but I was pleasantly surprised to find that was only the backdrop for a subtle story about trust, betrayal, and new possibilities. I highly recommend it, even if you're not familiar with the original story!" 
     review_author: "~ Danika, <a href='http://lesbrary.com/'>The Lesbrary</a>"
   purchase_direct: "https://daxmurray.lemonsqueezy.com/checkout/buy/ac8af7c7-3d97-4ac3-bab7-4b900605931b?embed=1"
+  has_campfire: !!bool true 
+  campfire_link: "https://www.campfirewriting.com/explore/feathers-and-moonbeams"
   purchase_links:
-    "Campfire": "https://www.campfirewriting.com/explore/feathers-and-moonbeams"
     "Amazon": "https://amzn.to/3I562ep"
     "Apple": "https://books.apple.com/us/book/id1439760650"
     "B & N": "https://www.barnesandnoble.com/w/a-lake-of-feathers-and-moonbeams-dax-murray/1128933687/"
@@ -132,6 +135,7 @@
     "Kobo": "https://www.kobo.com/us/en/ebook/a-lake-of-feathers-and-moonbeams"
     "Smashwords": "https://www.smashwords.com/books/view/1432406"
     "Others": "https://books2read.com/feathers-and-moonbeams"
+  ubl: "https://read.daxmurray.com/all/feathers-and-moonbeams"
   link: "/feathers-and-moonbeams.html"
   slug: feathers-and-moonbeams
   series_name: null
@@ -181,6 +185,7 @@
     "Smashwords": "https://www.smashwords.com/books/view/1444936"
     "Audible": "https://www.audible.com/pd/The-Resignation-Letter-Audiobook/B07JH672P5"
     "Others": "https://books2read.com/magic-surrendered"
+  ubl: "https://read.daxmurray.com/all/the-magic-surrendered"
   link: "/the-magic-surrendered.html"
   slug: the-magic-surrendered
   series_name: null
@@ -223,6 +228,7 @@
     "Kobo": "https://www.kobo.com/us/en/ebook/birthing-orion"
     "Smashwords": "https://www.smashwords.com/books/view/1477559"
     "Others": "https://books2read.com/birthing-orion"
+  ubl: "https://read.daxmurray.com/all/birthing-orion"
   link: "/birthing-orion.html"
   slug: birthing-orion
   series_name: null
@@ -256,8 +262,11 @@
   short_description: The reclusive daughter of a former princess and the taciturn youngest prince have every reason to hate each other, and yet they must work together if either of them hope to have a happy ending.
   review: null
   purchase_direct: null
-  purchase_links:
-    "Only On Ream": "https://reamstories.com/daxaeterna"
+  is_only_on_ream: !!bool true
+  purchase_links: null
+  ream:
+    buy_text: Only On Ream
+    link: "https://reamstories.com/page/lqgwbx9arj/story/lqix5iry7k/chapter/ed160dac-7767-4256-bd50-5108867400ab"
   link: "/the-last-page.html"
   slug: the-last-page
   series_name: null

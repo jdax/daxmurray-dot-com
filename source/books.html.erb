@@ -20,24 +20,30 @@ title: Dax Murray - Books
     <!-- <h4><%= book.intro_hook %></h4> -->
     <p><%= book.short_description %></p>
     <p><i><b><%= book.exit_hook %></i></b> </p>
+    <% if !book.coming_soon? %>
     <div class="pure-u-1 purchase-button-group">
-              <% if !book.purchase_direct.nil? %>
-              <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-                <%= link_to("Buy Ebook Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
-                </div>
-                <br/>
-                <h3>Purchase elsewhere:</h3>
-              <% end %>
-              <%# if !book.purchase_paperback.nil? %>
-                <!-- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><%= book.purchase_paperback %></div> -->
-              <%# end %>
-              <%# if !book.purchase_shopify.nil? %>
-                  <!-- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><span class="direct-purchase-button" style="margin: 7px;"><%#= book.purchase_shopify %></span></div> -->
-              <%# end %> 
-          <% book.purchase_links.each do |k, v |%>
-            <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4"><p><%= link_to(k, v, class: "purchase-button") %></p></div>
-          <% end %>
+      <% if !book.purchase_direct.nil? %>
+        <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
+          <%= link_to("Buy Ebook Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
+        </div>
+        <br/>
+        <h3>Purchase elsewhere:</h3>
+      <% end %>
+
+      <% if !book.purchase_shopify.nil? %>
+        <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><span class="direct-purchase-button" style="margin: 7px;"><%#= book.purchase_shopify %></span></div>
+      <% end %> 
+      
+      <% if !book.is_only_on_ream? %>
+        <% if book.has_campfire? %>
+          <div class="pure-u-sm-1-2"><%= link_to("Campfire Project + Bonus Materials", book.campfire_link, class: "purchase-button") %></div>
+        <% end %>
+        <div class="pure-u-sm-1-2"><%= link_to("Other Stores", book.ubl, class: "purchase-button") %></div>
+      <% else %>
+        <div class="pure-u-sm-1-2"><p><%= link_to("Only on Ream", book.ream.link, class: "purchase-button") %></p></div>
+      <% end %>
     </div>
+    <% end %>
   </div>
 <% end %>
 </div>
@@ -63,25 +69,28 @@ title: Dax Murray - Books
     <!-- <h4><%= book.intro_hook %></h4> -->
     <p><%= book.short_description %></p>
     <p><i><b><%= book.exit_hook %> </i></b></p>
+    <% if !book.coming_soon?%>
     <div class="pure-u-1 purchase-button-group">
       <% if !book.purchase_direct.nil? %>
-        <%= link_to("Buy Ebook Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
+        <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
+          <%= link_to("Buy Ebook Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
+        </div>
+        <br/>
+        <% if !book.purchase_shopify.nil? %>
+          <div class="pure-u-1 pure-u-sm-1-2"><span class="direct-purchase-button" style="margin: 7px;"><%= book.purchase_shopify %></span></div>
+        <% end %> 
+        <br/>
+        <h3>Purchase elsewhere:</h3>
       <% end %>
-      <%# if !book.purchase_paperback.nil? %>
-        <!--div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><%= book.purchase_paperback %></div> -->
-      <%# end %>
-      <% if !book.purchase_shopify.nil? %>
-        <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6"><span class="purchase-button"><%= book.purchase_shopify %></span></div>
-      <% end %>
-      <br/>
-      <% if !book.purchase_links.nil? && !book.purchase_direct.nil? %>
-          <h3>Purchase Elsewhere:</h3> <!-- this is here because of STARS AND SOIL right now since it doesn't have a "purchase direct" and there's nowhere else to purchase it and SMOKE has no purchase links at all soo -->
+      
+      <% if !book.is_only_on_ream? %>
+        <% if book.has_campfire? %>
+          <div class="pure-u-sm-1-2"><%= link_to("Campfire Project + Bonus Materials", book.campfire_link, class: "purchase-button") %></div>
         <% end %>
-
-    <% if !book.purchase_links.nil? %>
-    <% book.purchase_links.each do | k, v |%>
-      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4"><p><%= link_to(k, v, class: "purchase-button") %></p></div>
-    <% end %>
+        <div class="pure-u-sm-1-2"><%= link_to("Other Stores", book.ubl, class: "purchase-button") %></div>
+      <% else %>
+        <div class="pure-u-sm-1-2"><p><%= link_to("Only on Ream", book.ream.link, class: "purchase-button") %></p></div>
+      <% end %>
     </div>
     <% end %>
     </div>
