@@ -4,6 +4,7 @@
     <% if !book.purchase_direct.nil? %>
       <%= link_to("Buy Ebook Now", book.purchase_direct, class:"lemonsqueezy-button direct-purchase-button") %>
     <% end %>
+    <br/>
     <% if !book.purchase_shopify.nil? %>
       <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4 pure-u-lg-1-6" style="text-align: center; width: 100%;"><span class="direct-purchase-button"style="margin: 7px;"><%= book.purchase_shopify %></span></div>
     <% end %>
