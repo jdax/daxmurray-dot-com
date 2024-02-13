@@ -35,10 +35,17 @@ title: Dax Murray
               <div><span class="purchase-button"><%= @latest_release.purchase_shopify %></span></div> // something about this code is making the buy button always visible below the footer?
           <% end %> -->
           <br/>
-          
-          <% @latest_release.purchase_links.each do |name, link |%>
-          <h3>Purchase Elsewhere:</h3>
-            <%= link_to(name, link, class: "purchase-button") %>
+          <% if @latest_release.is_only_on_ream? %>
+            <%= link_to("Only On Ream", @latest_release.ream.link, class: "purchase-button") %>
+          <% end %>
+          <% if @latest_release.has_campfire? %>
+            <%= link_to("Campfire", @latest_release.campfire_link, class: "purchase-button") %>
+          <% end %>
+          <% if @latest_release.purchase_links? %>
+            <% @latest_release.purchase_links.each do |name, link |%>
+            <h3>Purchase Elsewhere:</h3>
+              <%= link_to(name, link, class: "purchase-button") %>
+            <% end %>
           <% end %>
         </div>
       </div>
