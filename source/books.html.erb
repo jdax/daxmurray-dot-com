@@ -37,9 +37,9 @@ title: Dax Murray - Books
       
       <% if !book.is_only_on_ream? %>
         <% if book.has_campfire? %>
-          <div class="pure-u-sm-1-2"><%= link_to("Campfire Project + Bonus Materials", book.campfire_link, class: "purchase-button") %></div>
+          <p class="pure-u-1-2"style="text-align: center;"><%= link_to("Campfire Project + Bonus Materials", book.campfire_link, class: "purchase-button") %></p>
         <% end %>
-        <div class="pure-u-sm-1-2"><%= link_to("Other Stores", book.ubl, class: "purchase-button") %></div>
+        <p style="text-align: center;"><%= link_to("Other Stores", book.ubl, class: "purchase-button") %></p>
       <% else %>
         <div class="pure-u-sm-1-2"><p><%= link_to("Only on Ream", book.ream.link, class: "purchase-button") %></p></div>
       <% end %>
@@ -78,7 +78,7 @@ title: Dax Murray - Books
         </div>
         <br/>
         <% if !book.purchase_shopify.nil? %>
-          <div class="pure-u-1 pure-u-sm-1-2"><span class="direct-purchase-button" style="margin: 7px;"><%= book.purchase_shopify %></span></div>
+          <span class="direct-purchase-button" style="margin: 15px;"><p><%= book.purchase_shopify %></p></span>
         <% end %> 
         <br/>
         <h3>Purchase elsewhere:</h3>
@@ -86,11 +86,11 @@ title: Dax Murray - Books
       
       <% if !book.is_only_on_ream? %>
         <% if book.has_campfire? %>
-          <div class="pure-u-sm-1-2"><%= link_to("Campfire Project + Bonus Materials", book.campfire_link, class: "purchase-button") %></div>
+          <p style="text-align: center;"><%= link_to("Campfire Project + Bonus Materials", book.campfire_link, class: "purchase-button") %></p>
         <% end %>
-        <div class="pure-u-sm-1-2"><%= link_to("Other Stores", book.ubl, class: "purchase-button") %></div>
+        <p style="text-align: center;"><%= link_to("Other Stores", book.ubl, class: "purchase-button") %></p>
       <% else %>
-        <div class="pure-u-sm-1-2"><p><%= link_to("Only on Ream", book.ream.link, class: "purchase-button") %></p></div>
+        <p style="text-align: center;"><%= link_to("Only on Ream", book.ream.link, class: "purchase-button") %></p>
       <% end %>
     </div>
     <% end %>
