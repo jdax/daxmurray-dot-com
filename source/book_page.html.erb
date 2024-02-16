@@ -45,6 +45,10 @@ layout: shopify_layout
       <p class="review-text"><%= book.review_two.review_text %></p>
       <p class="review-author"><%= book.review_two.review_author %>
     <% end %>
+    <% if !book.review_three.nil? %>
+      <p class="review-text"><%= book.review_three.review_text %></p>
+      <p class="review-author"><%= book.review_three.review_author %>
+    <% end %>
   </div>
 
   <div class="pure-g">

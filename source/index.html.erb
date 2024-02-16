@@ -42,8 +42,8 @@ title: Dax Murray
             <%= link_to("Campfire", @latest_release.campfire_link, class: "purchase-button") %>
           <% end %>
           <% if @latest_release.purchase_links? %>
+          <h3>Purchase Elsewhere:</h3>
             <% @latest_release.purchase_links.each do |name, link |%>
-            <h3>Purchase Elsewhere:</h3>
               <%= link_to(name, link, class: "purchase-button") %>
             <% end %>
           <% end %>
@@ -70,7 +70,14 @@ title: Dax Murray
         <div class="pure-u-1">
           <h3> <%= @coming_soon.exit_hook %> </h3>
         </div>
+        <% if !@coming_soon.has_campfire.nil?%>
+        <h3>Preview in Campfire</h3>
+        <div class="pure-u-1 purchase-button-group">
+        <%= link_to("Campfire", @coming_soon.campfire_link, class: "purchase-button") %>
+        </div>
+        <% end %>
         <% if !@coming_soon.purchase_links.nil? %>
+        <h3>Pre-Order</h3>
         <div class="pure-u-1 purchase-button-group">
           <% @coming_soon.purchase_links.each do |name, link |%>
             <%= link_to(name, link, class: "purchase-button") %>

@@ -53,11 +53,11 @@
   exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos. <br/><br/><p>Purchasing on Campfire gives you access to a treasure trove of bonus content, including maps, character profiles with extensive backstories and bios, AND free access to <i>Shades and Silver</i>, with more added frequently!<p>"
   short_description: Caitlin's life takes a dark turn after a gruesome murder entwines her with fate and magic. Unintentionally caught an anti-monarchy riot, she joins revolutionaries aiming for justice beyond social divides. But unwanted attention from a spoiled prince then immerses her in a world of political intrigue and secretive religious orders. In this unexpected journey, Caitlin must navigate the maelstrom and confront the powers that shape the kingdom's destiny from the shadows.
   review: 
-    review_text: "<p>A complex story about grief and trying to find both agency in one's life and what one wants out of it, Stars and Soil has a large, diverse cast of characters - some charming, some despicable, but all complex and real. Tons of description paints vivid pictures that really draw you into the environment and the story, and the intrigue will leave you second-guessing everyone's motives as the events of the present eerily echo events of the past that refuse to let go.</p>"
-    review_author: "~ <a href='https://www.lizsauco.com/'>Liz Sauco, Author of the Blades of the Goddess</a>"
+    review_text: "A complex story about grief and trying to find both agency in one's life and what one wants out of it, Stars and Soil has a large, diverse cast of characters - some charming, some despicable, but all complex and real. Tons of description paints vivid pictures that really draw you into the environment and the story, and the intrigue will leave you second-guessing everyone's motives as the events of the present eerily echo events of the past that refuse to let go."
+    review_author: "~ Liz Sauco, <a href='https://www.lizsauco.com/'> Author of the Blades of the Goddess</a>"
   review_two:
-    review_text: "<p>Stars and Soil hits the ground running with the introduction of Caitlin, a woman coming to terms with everything that’s happened to her while simultaneously navigating her moral proclivities in a society filled with pirates, religious zealots, and the ever-shifting world mercantile business. She comes to odds with her own family, battling frustrations she buried in her heart for years, the anger and isolation of being uprooted, and the resentment towards having others direct her life. Dax has a very emotionally convincing main character, making her journey through her fantastical world all the more engaging. I look forward to seeing the rest of Caitlin’s journey."
-    review_author: " ~ <a href='https://www.kaualara.com/'>Ka'ua Lara, Author of A New World For You</a></p>"
+    review_text: "Stars and Soil hits the ground running with the introduction of Caitlin, a woman coming to terms with everything that’s happened to her while simultaneously navigating her moral proclivities in a society filled with pirates, religious zealots, and the ever-shifting world mercantile business. She comes to odds with her own family, battling frustrations she buried in her heart for years, the anger and isolation of being uprooted, and the resentment towards having others direct her life. Dax has a very emotionally convincing main character, making her journey through her fantastical world all the more engaging. I look forward to seeing the rest of Caitlin’s journey."
+    review_author: " ~ Ka'ua Lara,<a href='https://www.kaualara.com/'> Author of A New World For You</a>"
   purchase_direct: "https://daxmurray.lemonsqueezy.com/checkout/buy/c8e98b13-53bc-44fb-a98c-feec7ea7ec23?embed=1"
   purchase_paperback: "<a href='https://payhip.com/b/vJcq3' class='payhip-buy-button direct-purchase-button' data-theme='none' data-product='vJcq3'>Special Edition Paperback</a>"
   purchase_shopify: '<div id="product-component-1704417065388"></div>'
@@ -102,7 +102,10 @@
   exit_hook: "Is the vision of calamity an omen of what will happen if she fails? Or a promise of what will come if she succeeds?<br/><p>Get a sneak peak at the first five chapters and a chance to get an ARC copy by signing up for my <a href='https://newsletter.daxmurray.com'>newsletter!</a></p>"
   short_description: "Saritrah's quest for the Suan throne pits her against her ruthless brother Ashur amidst a shattered monarchy. Facing betrayal and deceit from every side, Saritrah must brave the scorching desert to uncover a forgotten city, guided by enigmatic Seers with secrets and warnings of their own."
   review: null
-  purchase_links: null
+  has_campfire: !!bool true 
+  campfire_link: "https://links.daxmurray.com/cf-smoke"
+  purchase_links:
+    "Amazon": "https://links.daxmurray.com/smoke-b2r-amazon"
   link: "/smoke-and-steel.html"
   slug: smoke-and-steel
   series_name: "Scions and Shadows"
@@ -134,6 +137,12 @@
   review:
     review_text: "I loved the queer-positive fairy tale world, but I was pleasantly surprised to find that was only the backdrop for a subtle story about trust, betrayal, and new possibilities. I highly recommend it, even if you're not familiar with the original story!" 
     review_author: "~ Danika, <a href='http://lesbrary.com/'>The Lesbrary</a>"
+  review_two:
+    review_text: "The characterizations and descriptions of inner turmoil and environmental beauty will have minimalist quaking in their boots, Dax delivers an engaging story filled with betrayal, rage, despair and the hope that conquers all of it."
+    review_author: " ~ Ka’ua Lara,<a href='https://www.kaualara.com/'> Author of A New World For You</a>"
+  review_three: 
+    review_text: "So engaging! Great depth of character with complex relationships that unfold throughout the story, and a balance of tension and heart. The intricate worldbuilding will immerse you in both the forest and the greater world beyond it."
+    review_author: "~ Ingrid Mood,<a href='https://www.ingridmoon.com'> Author of The Handler's Gambit</a>"
   purchase_direct: "https://daxmurray.lemonsqueezy.com/checkout/buy/ac8af7c7-3d97-4ac3-bab7-4b900605931b?embed=1"
   has_campfire: !!bool true 
   campfire_link: "https://www.campfirewriting.com/explore/feathers-and-moonbeams"
