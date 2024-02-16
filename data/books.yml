@@ -49,16 +49,28 @@
   cover_3d:  "/images/stars-and-soil/stars_soil_3d_mockup_centered_paperback.png"
   animated_3d_cover: '<script src="https://3dbook.xyz/api/books/650b3f1945d4d5004a83aee8/cover.js"></script>'
   intro_hook: "It is not enough to kill a king... Revolutions kill kingdoms"
-  main_description: "<p><b>Caitlin had her whole life planned out until a grusome murder sets her on a collision course with fate and magic.</b></p> <p>She would live in the bustling port city of Whick with the reformed pirate she fell in love with and, one day, inherit her fathers' growing trading business.</p> <p>She did not intend to stumble into an anti-monarchy riot and become involved with the revolutionaries determined to overthrow the nobility and create a world without hunger, poverty and homelessness. A world with justice for all, and not just those with means. </p> <p>She did not want to catch the eye of a spoiled prince. She did not want him to pursue and court her, plunging her into a world of bickering dukes, suspicious foreign ambassadors, and scheming politicians.</p> <p>She did not seek out the attentions of ancient and secret religious orders, intent on controlling the machinations of a kingdom from the shadows.</p><p>But she did.</p>"
+  main_description: "<p><b>Caitlin had her whole life planned out until a grusome murder sets her on a collision course with fate and magic.</b></p> <p>She would live in the bustling port city of Whick with the reformed pirate she fell in love with and, one day, inherit her fathers' growing trading business.</p> <p>She did not intend to stumble into an anti-monarchy riot and become involved with the revolutionaries determined to overthrow the nobility and create a world without hunger, poverty and homelessness. A world with justice for all, and not just those with means. </p> <p>She did not want to catch the eye of a spoiled prince. She did not want him to pursue and court her, plunging her into a world of bickering dukes, suspicious foreign ambassadors, scheming politicians, and political intrigue.</p> <p>She did not seek out the attention of ancient and secret religious orders, intent on controlling the machinations of a kingdom from the shadows; hidden sects that whisper of magic and promise power.</p><p>But she did.</p>"
   exit_hook: "Caught in a web of deception and conspiracies, she must now she must fight for her own life in the coming political chaos. <br/><br/><p>Purchasing on Campfire gives you access to a treasure trove of bonus content, including maps, character profiles with extensive backstories and bios, AND free access to <i>Shades and Silver</i>, with more added frequently!<p>"
   short_description: Caitlin's life takes a dark turn after a gruesome murder entwines her with fate and magic. Unintentionally caught an anti-monarchy riot, she joins revolutionaries aiming for justice beyond social divides. But unwanted attention from a spoiled prince then immerses her in a world of political intrigue and secretive religious orders. In this unexpected journey, Caitlin must navigate the maelstrom and confront the powers that shape the kingdom's destiny from the shadows.
-  review: null
+  review: 
+    review_text: "<p>A complex story about grief and trying to find both agency in one's life and what one wants out of it, Stars and Soil has a large, diverse cast of characters - some charming, some despicable, but all complex and real. Tons of description paints vivid pictures that really draw you into the environment and the story, and the intrigue will leave you second-guessing everyone's motives as the events of the present eerily echo events of the past that refuse to let go.</p>"
+    review_author: "~ <a href='https://www.lizsauco.com/'>Liz Sauco, Author of the Blades of the Goddess</a>"
+  review_two:
+    review_text: "<p>Stars and Soil hits the ground running with the introduction of Caitlin, a woman coming to terms with everything that’s happened to her while simultaneously navigating her moral proclivities in a society filled with pirates, religious zealots, and the ever-shifting world mercantile business. She comes to odds with her own family, battling frustrations she buried in her heart for years, the anger and isolation of being uprooted, and the resentment towards having others direct her life. Dax has a very emotionally convincing main character, making her journey through her fantastical world all the more engaging. I look forward to seeing the rest of Caitlin’s journey."
+    review_author: " ~ <a href='https://www.kaualara.com/'>Ka'ua Lara, Author of A New World For You</a></p>"
   purchase_direct: "https://daxmurray.lemonsqueezy.com/checkout/buy/c8e98b13-53bc-44fb-a98c-feec7ea7ec23?embed=1"
   purchase_paperback: "<a href='https://payhip.com/b/vJcq3' class='payhip-buy-button direct-purchase-button' data-theme='none' data-product='vJcq3'>Special Edition Paperback</a>"
   purchase_shopify: '<div id="product-component-1704417065388"></div>'
   has_campfire: !!bool true 
-  campfire_link: "https://www.campfi.re/stars-and-soil"
-  purchase_links: null
+  campfire_link: "https://links.daxmurray.com/cf-stars"
+  purchase_links:
+    "Amazon": "https://links.daxmurray.com/stars-universal-amazon"
+    "Apple": "https://links.daxmurray.com/stars-universal-apple"
+    "Google Play": "https://links.daxmurray.com/stars-universal-gplay"
+    "Gumroad": "https://links.daxmurray.com/stars-gumroad"
+    "Smashwords": "https://links.daxmurray.com/stars-universal-smashwords"
+    "Other Stores": "https://links.daxmurray.com/stars-b2r"
+  ubl: "https://links.daxmurray.com/stars-ubl"
   link: "/stars-and-soil.html"
   slug: stars-and-soil
   series_name: "Scions and Shadows"
