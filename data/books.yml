@@ -94,6 +94,37 @@
   coming_soon: !!bool false
   release_date: "October 30th, 2023"
 
+- scorched-scars:
+  title: "Scorched Scars"
+  cover_flat: "/images/scorched-scars/scorched-scars-flat.jpg"
+  cover_3d: "/images/scorched-scars/scorched-scars-3d.png"
+  animated_3d_cover:
+  intro_hook: A past turned to dust, and a future of smoldering embers
+  main_description: When Kegan escaped the poachers that had hunted their clan and turned their village to ruins, they thought that they could find safety away from the verdant forests of their home and in the bustle of the capital city. But years later, it seems like the hunters have taken up the chase once again. Now a member of the rebellion forces, Kegan must go back to the woods they were born in, not to visit the graves of their family or to stalk the returning poachers, but to find a lost comrade and and determine what happened to the rebellion's missing spy. But time is not on Kegan's side as the poachers creep up on them from behind and the King's Sheild closes in on them from the front. 
+  exit_hook: Will Kegan heal the long festering scars of their past or will their fears lead to the downfall of the entire revolutionary movement? SCORCHED SCARS is set during the events of STARS AND SOIL but can be read in any order.
+  short_description: When Kegan escaped the poachers that had hunted their clan and turned their village to ruins, they thought that they could find safety away from the verdant forests of their home and in the bustle of the capital city. But years later, it seems like the hunters have taken up the chase once again. Now a member of the rebellion forces, Kegan must go back to the woods they were born in, not to visit the graves of their family or to stalk the returning poachers, but to find a lost comrade and and determine what happened to the rebellion's missing spy. But time is not on Kegan's side as the poachers creep up on them from behind and the King's Sheild closes in on them from the front. 
+  has_campfire: !!bool false
+  purchase_links: null
+  is_only_on_ream: !!bool true
+  purchase_links: null
+  ream:
+    buy_text: Only On Ream
+    link: "https://scionsandshadows.daxmurray.com/fRnq4D"
+  ubl: null
+  link: "/scorched-scars"
+  slug: scorched-scars
+  series_name: "Scions and Shadows"
+  cover_art:
+    name: GetCovers
+    link: "https://www.getcovers.com"
+  is_series: !!bool true
+  scions: !!bool true
+  standalone: !!bool false
+  poetry: !!bool false
+  latest: !!bool false
+  coming_soon: !!bool false
+  release_date:
+
 - smoke-and-steel:
   title: "Smoke & Steel"
   cover_flat: "/images/smoke-and-steel/smoke-and-steel-flat.jpg"
