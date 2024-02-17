@@ -108,6 +108,9 @@
   campfire_link: "https://links.daxmurray.com/cf-smoke"
   purchase_links:
     "Amazon": "https://links.daxmurray.com/smoke-b2r-amazon"
+    "Apple": "https://links.daxmurray.com/smoke-universal-apple"
+    "Kobo": "https://links.daxmurray.com/smoke-universal-kobo"
+    "Smashwords": "https://links.daxmurray.com/smoke-universal-smashwords"
   link: "/smoke-and-steel.html"
   slug: smoke-and-steel
   series_name: "Scions and Shadows"
