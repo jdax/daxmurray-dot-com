@@ -163,7 +163,7 @@
   poetry: !!bool false
   latest: !!bool false
   coming_soon: !!bool true
-  release_date: "May 15, 2024"
+  release_date: "May 30, 2024"
   
 - a-lake-of-feathers-and-moonbeams:
   title: "A Lake of Feathers & Moonbeams"
