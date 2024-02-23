@@ -70,7 +70,7 @@ title: Dax Murray - Books
     <!-- <h4><%= book.intro_hook %></h4> -->
     <p><%= book.short_description %></p>
     <p><i><b><%= book.exit_hook %> </i></b></p>
-    <% if !book.coming_soon?%>
+    <%# <% if !book.coming_soon? %> 
     <div class="pure-u-1 purchase-button-group">
       <% if !book.purchase_direct.nil? %>
         <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
@@ -93,7 +93,7 @@ title: Dax Murray - Books
         <p style="text-align: center;"><%= link_to("Only on Ream", book.ream.link, class: "purchase-button") %></p>
       <% end %>
     </div>
-    <% end %>
+    <%# <% end %> 
     </div>
 <% end %>
 </div>
